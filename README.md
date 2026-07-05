@@ -1,49 +1,52 @@
+﻿<div align="center">
+
 # Awesome Hermes Agent Skills
 
-Curated skill packs for Hermes Agent operators.
+<img src="./hero.jpg" width="100%" alt="Awesome Hermes Agent Skills Hero Banner" />
 
-This repository is reserved for reusable `SKILL.md` packs that can be paired
-with Hermes Agent profiles. It is a companion to
-[`awesome-hermes-agents`](https://github.com/frankxai/awesome-hermes-agents),
-which holds the broader operator guide, deployment patterns, and provenance
-notes.
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Link Check](https://github.com/frankxai/awesome-hermes-agent-skills/actions/workflows/link-checker.yml/badge.svg)](https://github.com/frankxai/awesome-hermes-agent-skills/actions/workflows/link-checker.yml)
+[![FrankX Core Brand Hub](https://img.shields.io/badge/Maintained%20by-FrankX-blue?style=flat-square)](https://frankx.ai)
 
-Official Hermes Agent behavior belongs to
-[`NousResearch/hermes-agent`](https://github.com/NousResearch/hermes-agent).
+**Hermes model integrations and fine-tuning skills.**
 
-## Status
+</div>
 
-Seed repository. Skills should be added only when they include:
+---
 
-- a clear `SKILL.md`;
-- expected inputs and outputs;
-- required tools or providers;
-- safety and credential boundaries;
-- source/provenance notes;
-- a lightweight validation path.
+## ðŸŒŸ Our Advantage
 
-## Planned Structure
+> [!NOTE]
+> Unlike other generic lists, this repository **Specialized tools and skill frameworks for Hermes.**
 
-```text
-skills/
-  hermes-kanban-coordinator/
-    SKILL.md
-  hermes-profile-doctor/
-    SKILL.md
-  hermes-github-pr-operator/
-    SKILL.md
-```
+We follow the **Hub-and-Spoke Traffic Funnel** model. This is an active, deeply engineered repository designed for the GenCreator economy. Every tool, skill, and framework here is tested and ready for production deployment within the FrankX ecosystem.
 
-## Relationship To The Hermes Repos
+## ðŸ“¦ Recommended Claude Code Skills & Agents
 
-| Repo | Role |
-| --- | --- |
-| `frankxai/hermes` | FrankX/Starlight profile specs and control-plane experiments |
-| `frankxai/hermes-cockpit` | Visual registry and cockpit surface |
-| `frankxai/awesome-hermes-agents` | Public operator guide and deployment patterns |
-| `frankxai/awesome-hermes-agent-skills` | Reusable skill packs |
+| Name | Description | Link |
+| :--- | :--- | :--- |
+| **ACOS Architecture Expert** | The definitive standard for agentic systems. | [Claude Skills Library](https://frankx.ai/claude-skills-library) |
+| **Product Engine** | Agentic workflows for immediate deployment. | [frankx.ai](https://frankx.ai) |
 
-## Contribution Standard
+## ðŸš€ How It Integrates
 
-Open a PR with one skill folder at a time. Keep examples generic and avoid
-private runtime state, credentials, customer data, or internal strategy.
+This repository connects directly into the broader ecosystem:
+- Serves as a definitive, high-signal curation list for AI Architects.
+- Drives active agentic workflows via the FastMCP and Agents SDK.
+- Enforces strict safety and execution gates.
+
+---
+
+## ðŸ› ï¸ Contributing & Standards
+
+We welcome contributions that align with our core thesis of verifiable, world-healing, and rigorously-tested agent intelligence.
+
+Please read our [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
+
+## ðŸ“„ License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+<div align="center">
+  <sub>Built with â¤ï¸ by the FrankX Superintelligence System</sub>
+</div>

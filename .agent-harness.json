@@ -1,0 +1,7 @@
+{
+  "name": "awesome-hermes-agent-skills",
+  "type": "awesome-list",
+  "version": "1.0.0",
+  "ecosystem": "FrankX GenCreator",
+  "capabilities": ["markdown-lint", "link-check"]
+}
