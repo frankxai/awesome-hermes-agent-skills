@@ -28,7 +28,12 @@ We follow the **Hub-and-Spoke Traffic Funnel** model. This is an active, deeply 
 | **ACOS Architecture Expert** | The definitive standard for agentic systems. | [Claude Skills Library](https://frankx.ai/claude-skills-library) |
 | **Product Engine** | Agentic workflows for immediate deployment. | [frankx.ai](https://frankx.ai) |
 
-## ðŸš€ How It Integrates
+
+
+> [!TIP]
+> **New to Agents?** Check out our [Getting Started Guide](./GETTING_STARTED.md) to set up your first Claude Code skill for free.
+>
+> **Ready to Scale?** Unlock premium Agent Swarms on [Gumroad](https://gumroad.com/frankxai) or [frankx.ai/products](https://frankx.ai/products).## ðŸš€ How It Integrates
 
 This repository connects directly into the broader ecosystem:
 - Serves as a definitive, high-signal curation list for AI Architects.
@@ -50,3 +55,4 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 <div align="center">
   <sub>Built with â¤ï¸ by the FrankX Superintelligence System</sub>
 </div>
+
