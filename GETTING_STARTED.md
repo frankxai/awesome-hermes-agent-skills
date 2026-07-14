@@ -1,23 +1,31 @@
-# Getting Started with Agentic Swarms
+# Getting Started with Agentic Skills
 
-Welcome to the future of software development and automation. This repository provides a curated collection of agentic tools, MCP servers, and Claude Code skills designed to give you superpowers.
+Welcome to the community! If you're new to Claude Code, AI agents, or our ecosystem, this guide will help you get your first agentic workflow running.
 
-## What is Claude Code?
-Claude Code is an agentic CLI tool that allows Anthropic's Claude models to interact directly with your local file system, run terminal commands, and execute complex workflows autonomously.
+## 1. Prerequisites
+- **Claude Code**: Ensure you have [Claude Code](https://github.com/anthropics/claude-code) installed.
+- **API Keys**: You will need an Anthropic API key to run Claude models.
 
-## What is an MCP Server?
-The **Model Context Protocol (MCP)** is an open standard that enables AI models to connect securely to local or remote data sources and tools. Think of MCP servers as "plugins" that give Claude the ability to read your database, interact with GitHub, or manage your calendar.
+## 2. Installing Your First Free Skill
+This repository contains "Lite" versions of our premium agentic skills. 
 
-## How to Get Started (Free Tier)
-1. **Install Claude Code:** Follow the official instructions from Anthropic to install the CLI.
-2. **Explore Our Curated Directories:** Browse the `README.md` to discover top-tier open-source tools and frameworks in this niche.
-3. **Try the Lite Skills:** We include basic starter skills in this repository. Place them in your `.agents/skills/` directory and let Claude automate your basic tasks.
+To use a skill:
+1. Navigate to the `skills/` folder in this repository.
+2. Copy the desired skill folder (e.g., `basic-design-reviewer`) into your global skills directory (usually `~/.gemini/config/skills` or `.agents/skills` in your project).
+3. Open your terminal in your project directory and start Claude Code.
+4. Prompt Claude to use the skill. For example: *"Review my UI design using the basic-design-reviewer skill."*
 
-## Unlock Premium Capabilities
-While we provide immense value here for free, the true magic happens when you orchestrate multiple agents together into a **Swarm**.
+## 3. Upgrading to Premium Products
+While the skills in this repository are free and open-source, they are the "Lite" versions of our full capabilities. 
 
-If you're ready to deploy production-grade agentic pipelines (like the **Visual Creation Loop**, the **Product Engine**, or full **CACOS** operating system), check out our premium offerings at [frankx.ai/products](https://frankx.ai/products).
+If you want to access:
+- **Full multi-agent Swarms** (e.g., The Visual Creation Loop)
+- **Advanced memory retention** (AgentDB)
+- **Enterprise-grade guardrails and prompts**
 
-> "The open-source community provides the raw materials. Our premium products provide the blueprints and automated factories to assemble them at scale."
+You can purchase our Premium Tier products. Look for the **"Get it on Gumroad"** or **"View on frankx.ai"** links in the README!
 
-Happy building!
+## 4. Join the Community
+Stay updated with the latest AI workflows and agent architectures.
+- [Visit frankx.ai](https://frankx.ai) for deep dives and Premium OS products.
+- Engage with us on GitHub by submitting PRs and sharing how you use these tools!

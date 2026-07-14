@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 # Awesome Hermes Agent Skills
 
@@ -14,18 +14,19 @@
 
 ---
 
-## ðŸŒŸ Our Advantage
+## 🌟 Our Advantage
 
 > [!NOTE]
 > Unlike other generic lists, this repository **Specialized tools and skill frameworks for Hermes.**
 
 We follow the **Hub-and-Spoke Traffic Funnel** model. This is an active, deeply engineered repository designed for the GenCreator economy. Every tool, skill, and framework here is tested and ready for production deployment within the FrankX ecosystem.
 
-## ðŸ“¦ Recommended Claude Code Skills & Agents
+## 📦 Recommended Claude Code Skills & Agents
 
 | Name | Description | Link |
 | :--- | :--- | :--- |
 | **ACOS Architecture Expert** | The definitive standard for agentic systems. | [Claude Skills Library](https://frankx.ai/claude-skills-library) |
+| **Premium Swarm: Visual Creation Loop** | Full multi-agent pipeline for high-end mascot & asset generation. | [Get it on Gumroad](https://frankx.gumroad.com/l/visual-creation) <br/> [View on frankx.ai](https://frankx.ai/products) |
 | **Product Engine** | Agentic workflows for immediate deployment. | [frankx.ai](https://frankx.ai) |
 
 
@@ -33,7 +34,7 @@ We follow the **Hub-and-Spoke Traffic Funnel** model. This is an active, deeply 
 > [!TIP]
 > **New to Agents?** Check out our [Getting Started Guide](./GETTING_STARTED.md) to set up your first Claude Code skill for free.
 >
-> **Ready to Scale?** Unlock premium Agent Swarms on [Gumroad](https://gumroad.com/frankxai) or [frankx.ai/products](https://frankx.ai/products).## ðŸš€ How It Integrates
+> **Ready to Scale?** Unlock premium Agent Swarms on [Gumroad](https://gumroad.com/frankxai) or [frankx.ai/products](https://frankx.ai/products).## 🚀 How It Integrates
 
 This repository connects directly into the broader ecosystem:
 - Serves as a definitive, high-signal curation list for AI Architects.
@@ -42,17 +43,17 @@ This repository connects directly into the broader ecosystem:
 
 ---
 
-## ðŸ› ï¸ Contributing & Standards
+## 🛠️ Contributing & Standards
 
 We welcome contributions that align with our core thesis of verifiable, world-healing, and rigorously-tested agent intelligence.
 
 Please read our [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
 
-## ðŸ“„ License
+## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 <div align="center">
-  <sub>Built with â¤ï¸ by the FrankX Superintelligence System</sub>
+  <sub>Built with ❤️ by the FrankX Superintelligence System</sub>
 </div>
 
