@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <rect width="1200" height="400" fill="#1a1a2e"/>
+  <g stroke="#00d4ff" stroke-width="2" opacity="0.6">
+    <line x1="80" y1="60" x2="280" y2="140"/>
+    <line x1="920" y1="70" x2="1120" y2="160"/>
+    <circle cx="180" cy="90" r="5" fill="#00d4ff"/>
+    <circle cx="980" cy="100" r="6" fill="#00d4ff"/>
+    <circle cx="220" cy="340" r="4" fill="#00d4ff"/>
+    <circle cx="1020" cy="320" r="5" fill="#00d4ff"/>
+  </g>
+  <text x="600" y="170" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="bold" fill="#00d4ff" text-anchor="middle">Awesome Hermes Agent Skills</text>
+  <text x="600" y="220" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#e0e0e0" text-anchor="middle">GenCreator 6-Pillar | Starlight Swarm | Arcanea Creative Execution</text>
+  <line x1="250" y1="260" x2="950" y2="260" stroke="#00d4ff" stroke-width="3" opacity="0.8"/>
+  <text x="600" y="310" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#8888aa" text-anchor="middle">Hermes Profiles • MCP • Skills • Loops • Agent Fleets • Provenance</text>
+</svg>
