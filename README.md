@@ -21,6 +21,17 @@
 
 We follow the **Hub-and-Spoke Traffic Funnel** model. This is an active, deeply engineered repository designed for the GenCreator economy. Every tool, skill, and framework here is tested and ready for production deployment within the FrankX ecosystem.
 
+## Free Hermes skill packs (this repo)
+
+Install by copying a folder into `~/.hermes/skills/` (or your Hermes skills dir), then `/reload-skills` or new session.
+
+| Pack | Description | Path |
+| :--- | :--- | :--- |
+| **coding-agents-superpack** | Multi-CLI discovery, structured prompts, Model Council handoffs (sanitized free) | [`skills/coding-agents-superpack`](./skills/coding-agents-superpack/SKILL.md) |
+| **todo-discipline** | Hard gate: task list must match reality before “done” | [`skills/todo-discipline`](./skills/todo-discipline/SKILL.md) |
+
+Open-core policy: free portable process excellence; production CoE / brand kits stay gated. See GenCreator / Starlight public OS repos for more.
+
 ## 📦 Recommended Claude Code Skills & Agents
 
 | Name | Description | Link |
