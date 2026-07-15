@@ -30,6 +30,8 @@ Install by copying a folder into `~/.hermes/skills/` (or your Hermes skills dir)
 | **coding-agents-superpack** | Multi-CLI discovery, structured prompts, Model Council handoffs (sanitized free) | [`skills/coding-agents-superpack`](./skills/coding-agents-superpack/SKILL.md) |
 | **todo-discipline** | Hard gate: task list must match reality before “done” | [`skills/todo-discipline`](./skills/todo-discipline/SKILL.md) |
 
+**Skill Portfolio OS (ops SSOT):** [`docs/skill-portfolio-os/`](./docs/skill-portfolio-os/) — free vs gated, maintenance, self-learning, [storage taxonomy](./docs/skill-portfolio-os/STORAGE-TAXONOMY.md).
+
 Open-core policy: free portable process excellence; production CoE / brand kits stay gated. See GenCreator / Starlight public OS repos for more.
 
 ## 📦 Recommended Claude Code Skills & Agents
