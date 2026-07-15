@@ -1,31 +1,35 @@
 # Getting Started with Agentic Skills
 
-Welcome to the community! If you're new to Claude Code, AI agents, or our ecosystem, this guide will help you get your first agentic workflow running.
+Welcome to the community! If you're new to Hermes Agent, Claude Code, AI agents, or our ecosystem, this guide will help you get your first agentic workflow running.
 
 ## 1. Prerequisites
-- **Claude Code**: Ensure you have [Claude Code](https://github.com/anthropics/claude-code) installed.
-- **API Keys**: You will need an Anthropic API key to run Claude models.
+- **Hermes Agent** (recommended): [hermes-agent](https://github.com/NousResearch/hermes-agent) — or **Claude Code** from Anthropic.
+- **API / auth**: Provider keys or OAuth as required by your agent.
 
-## 2. Installing Your First Free Skill
-This repository contains "Lite" versions of our premium agentic skills. 
+## 2. Free Hermes skill packs (this repo)
 
-To use a skill:
-1. Navigate to the `skills/` folder in this repository.
-2. Copy the desired skill folder (e.g., `basic-design-reviewer`) into your global skills directory (usually `~/.gemini/config/skills` or `.agents/skills` in your project).
-3. Open your terminal in your project directory and start Claude Code.
-4. Prompt Claude to use the skill. For example: *"Review my UI design using the basic-design-reviewer skill."*
+1. Clone this repo or download a skill folder under `skills/`.
+2. Copy into your Hermes skills directory (e.g. `%LOCALAPPDATA%\hermes\skills\` on Windows, `~/.hermes/skills/` on macOS/Linux).
+3. New session or `/reload-skills`.
+4. Load by name — examples:
+   - **coding-agents-superpack** — multi-CLI discovery, structured prompts, multi-agent handoffs
+   - **todo-discipline** — task list must match reality before you claim "done"
 
-## 3. Upgrading to Premium Products
-While the skills in this repository are free and open-source, they are the "Lite" versions of our full capabilities. 
+## 3. Claude Code free skills
 
-If you want to access:
-- **Full multi-agent Swarms** (e.g., The Visual Creation Loop)
-- **Advanced memory retention** (AgentDB)
-- **Enterprise-grade guardrails and prompts**
+Also see [claude-skills-library free-skills](https://github.com/frankxai/claude-skills-library/tree/main/free-skills) (e.g. todo-discipline).
 
-You can purchase our Premium Tier products. Look for the **"Get it on Gumroad"** or **"View on frankx.ai"** links in the README!
+## 4. Upgrading to Premium Products
 
-## 4. Join the Community
-Stay updated with the latest AI workflows and agent architectures.
-- [Visit frankx.ai](https://frankx.ai) for deep dives and Premium OS products.
-- Engage with us on GitHub by submitting PRs and sharing how you use these tools!
+Free packs are **open-core** gravity. Premium offerings include:
+
+- **Full multi-agent Swarms** (e.g. Visual Creation Loop)
+- **GenCreator 6-Pillar CoE kits** (production guardians + loops — not the free superpack)
+- **Advanced memory / brand production systems**
+
+Purchase links: **Gumroad** / **[frankx.ai/products](https://frankx.ai/products)** — see README.
+
+## 5. Join the Community
+- [frankx.ai](https://frankx.ai) — deep dives and Premium OS products  
+- [agentic-creator-os](https://github.com/frankxai/agentic-creator-os) — open-core Creator OS  
+- PRs welcome that stay free of secrets and personal host paths  
