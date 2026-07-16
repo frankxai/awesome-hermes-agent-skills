@@ -1,57 +1,59 @@
 # Getting Started — Hermes Agent Skills
 
-This repo is the **skills** companion to [awesome-hermes-agents](https://github.com/frankxai/awesome-hermes-agents).
+This is a **web-first skills catalog**. Most of the value is links to other people's skill packs.
 
 | Want… | Use |
 | --- | --- |
-| Install Hermes, profiles, Kanban, deploy | [awesome-hermes-agents](https://github.com/frankxai/awesome-hermes-agents) + [official docs](https://hermes-agent.nousresearch.com/docs/) |
-| Install / author `SKILL.md` packs | **This repo** |
+| Browse best skills on the web | [README.md](./README.md) sections above “Maintained in this repo” |
+| Broader directories | [0xNyk/awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) · [SamurAIGPT/awesome-hermes-agent](https://github.com/SamurAIGPT/awesome-hermes-agent) |
+| Agents / UIs / deploy | [awesome-hermes-agents](https://github.com/frankxai/awesome-hermes-agents) |
+| Official skill authoring | [Creating skills](https://hermes-agent.nousresearch.com/docs/developer-guide/creating-skills) |
 
-## 1. Install Hermes first
+## 1. Install Hermes
 
-Follow: [Official installation](https://hermes-agent.nousresearch.com/docs/getting-started/installation)
+[Official installation](https://hermes-agent.nousresearch.com/docs/getting-started/installation)
 
 ```bash
 hermes version
 hermes doctor
 ```
 
-## 2. Copy a free pack
+## 2. Install a skill from the web (preferred path)
+
+Pick something high-signal from the README, e.g.:
+
+- [wondelai/skills](https://github.com/wondelai/skills)
+- [Romanescu11/hermes-skill-factory](https://github.com/Romanescu11/hermes-skill-factory)
+- [tlehman/litprog-skill](https://github.com/tlehman/litprog-skill)
+
+Follow **that repo's** install instructions. Patterns you will see:
+
+```bash
+# clone + copy SKILL.md tree into Hermes skills dir
+# or: hermes skills install owner/repo/...
+# or: npx skills add owner/repo -g
+```
+
+## 3. Optional: free packs in *this* repo
 
 ```bash
 git clone https://github.com/frankxai/awesome-hermes-agent-skills.git
-# Windows example:
-# copy skills\todo-discipline into %LOCALAPPDATA%\hermes\skills\
-# macOS/Linux:
 cp -R awesome-hermes-agent-skills/skills/todo-discipline ~/.hermes/skills/
 ```
 
-Reload skills in Hermes (new session or `/reload-skills` when available).
+These are small open-core packs — not a replacement for the ecosystem catalog.
 
-## 3. Read Skill Portfolio OS
-
-Start at [`docs/skill-portfolio-os/README.md`](docs/skill-portfolio-os/README.md).
-
-Key rule: **not all free, not all paid** — only portable, secret-free process packs ship publicly here.
-
-## 4. Author a skill
+## 4. Author your own
 
 Official: [Creating skills](https://hermes-agent.nousresearch.com/docs/developer-guide/creating-skills)
 
-Minimum structure:
+Minimum:
 
 ```text
 skills/my-skill/
   SKILL.md
 ```
 
-Include: name, description, when to use, steps, required tools, safety boundaries, provenance.
+## 5. Portfolio ops (maintainers)
 
-## 5. Upgrade path
-
-Premium multi-agent / brand / CoE products stay gated (see frankx.ai products / private FrankX product docs). Free packs here are the portable excellence layer.
-
-## Related
-
-- [awesome-hermes-agents](https://github.com/frankxai/awesome-hermes-agents)
-- [agentskills.io](https://agentskills.io)
+[`docs/skill-portfolio-os/`](docs/skill-portfolio-os/) — free vs gated vs product classification for packs we publish.
