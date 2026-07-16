@@ -1,35 +1,57 @@
-# Getting Started with Agentic Skills
+# Getting Started — Hermes Agent Skills
 
-Welcome to the community! If you're new to Hermes Agent, Claude Code, AI agents, or our ecosystem, this guide will help you get your first agentic workflow running.
+This repo is the **skills** companion to [awesome-hermes-agents](https://github.com/frankxai/awesome-hermes-agents).
 
-## 1. Prerequisites
-- **Hermes Agent** (recommended): [hermes-agent](https://github.com/NousResearch/hermes-agent) — or **Claude Code** from Anthropic.
-- **API / auth**: Provider keys or OAuth as required by your agent.
+| Want… | Use |
+| --- | --- |
+| Install Hermes, profiles, Kanban, deploy | [awesome-hermes-agents](https://github.com/frankxai/awesome-hermes-agents) + [official docs](https://hermes-agent.nousresearch.com/docs/) |
+| Install / author `SKILL.md` packs | **This repo** |
 
-## 2. Free Hermes skill packs (this repo)
+## 1. Install Hermes first
 
-1. Clone this repo or download a skill folder under `skills/`.
-2. Copy into your Hermes skills directory (e.g. `%LOCALAPPDATA%\hermes\skills\` on Windows, `~/.hermes/skills/` on macOS/Linux).
-3. New session or `/reload-skills`.
-4. Load by name — examples:
-   - **coding-agents-superpack** — multi-CLI discovery, structured prompts, multi-agent handoffs
-   - **todo-discipline** — task list must match reality before you claim "done"
+Follow: [Official installation](https://hermes-agent.nousresearch.com/docs/getting-started/installation)
 
-## 3. Claude Code free skills
+```bash
+hermes version
+hermes doctor
+```
 
-Also see [claude-skills-library free-skills](https://github.com/frankxai/claude-skills-library/tree/main/free-skills) (e.g. todo-discipline).
+## 2. Copy a free pack
 
-## 4. Upgrading to Premium Products
+```bash
+git clone https://github.com/frankxai/awesome-hermes-agent-skills.git
+# Windows example:
+# copy skills\todo-discipline into %LOCALAPPDATA%\hermes\skills\
+# macOS/Linux:
+cp -R awesome-hermes-agent-skills/skills/todo-discipline ~/.hermes/skills/
+```
 
-Free packs are **open-core** gravity. Premium offerings include:
+Reload skills in Hermes (new session or `/reload-skills` when available).
 
-- **Full multi-agent Swarms** (e.g. Visual Creation Loop)
-- **GenCreator 6-Pillar CoE kits** (production guardians + loops — not the free superpack)
-- **Advanced memory / brand production systems**
+## 3. Read Skill Portfolio OS
 
-Purchase links: **Gumroad** / **[frankx.ai/products](https://frankx.ai/products)** — see README.
+Start at [`docs/skill-portfolio-os/README.md`](docs/skill-portfolio-os/README.md).
 
-## 5. Join the Community
-- [frankx.ai](https://frankx.ai) — deep dives and Premium OS products  
-- [agentic-creator-os](https://github.com/frankxai/agentic-creator-os) — open-core Creator OS  
-- PRs welcome that stay free of secrets and personal host paths  
+Key rule: **not all free, not all paid** — only portable, secret-free process packs ship publicly here.
+
+## 4. Author a skill
+
+Official: [Creating skills](https://hermes-agent.nousresearch.com/docs/developer-guide/creating-skills)
+
+Minimum structure:
+
+```text
+skills/my-skill/
+  SKILL.md
+```
+
+Include: name, description, when to use, steps, required tools, safety boundaries, provenance.
+
+## 5. Upgrade path
+
+Premium multi-agent / brand / CoE products stay gated (see frankx.ai products / private FrankX product docs). Free packs here are the portable excellence layer.
+
+## Related
+
+- [awesome-hermes-agents](https://github.com/frankxai/awesome-hermes-agents)
+- [agentskills.io](https://agentskills.io)
