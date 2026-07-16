@@ -43,6 +43,7 @@ Research pulse: **2026-07-16**
 - [Skill libraries & standards](#skill-libraries--standards)
 - [Hermes-native skills & plugins](#hermes-native-skills--plugins)
 - [agentskills.io & cross-harness packs](#agentskillsio--cross-harness-packs)
+- [AI cinema & visual production skills](#ai-cinema--visual-production-skills)
 - [Domain skill packs](#domain-skill-packs)
 - [Skill factories & evolution](#skill-factories--evolution)
 - [Related tools (skills-adjacent)](#related-tools-skills-adjacent)
@@ -127,6 +128,35 @@ These install on Hermes **and** often Claude Code / Cursor / OpenClaw / Codex.
 | [remoet-labs/agent-skills](https://github.com/remoet-labs/agent-skills) | production | Job search by tech stack + MCP |
 | [Sequenzy/skills](https://github.com/Sequenzy/skills) | beta | Email marketing lifecycle skills |
 | [resemble-ai/detect-skill](https://github.com/resemble-ai/detect-skill) | beta | Deepfake / media authenticity for agents |
+
+---
+
+## AI cinema & visual production skills
+
+Prompt-director skills for **Nano Banana / Banana Pro stills**, **Seedance video**, character locks, and multi-model visual pipelines. These are plain `SKILL.md` packs (Claude Skills / agentskills.io shape) — installable on Hermes, Claude Code, Cursor, Codex, OpenCode, AGY.
+
+**Default stance for Starlight/GenCreator/Arcanea:** keep the **discipline** (mode order, mid-gray face locks, density rules, pre-prompt checks); **adapt the backend router** so prompts target Grok Imagine, Codex image, Higgsfield, FAL, or NB depending on brand job — do not hard-lock every workflow to one UI.
+
+| Project | Maturity | Role |
+| --- | --- | --- |
+| [Gregory-Esman/ai-film-pipeline](https://github.com/Gregory-Esman/ai-film-pipeline) | production | Full AI-film OS: `banana-pro-director` + `cinema-worldbuilder` + orchestrator + video-QA (Joey lineage, guided pipeline) |
+| [sq-cm/claude-template](https://github.com/sq-cm/claude-template) (`.claude/skills/`) | production | Studio pack: `banana-pro-director` 3.0, `cinema-worldbuilder-pro`, `seedance-bilingual-director`, `seedance-commercial-director`, `story-bible-builder`, shot-spec templates |
+| [smixs/visual-skills](https://github.com/smixs/visual-skills) | production | Dual toolkit: image (NB2/NBP + GPT Image 2) + video (Seedance / Kling / Veo); explicit Hermes-agent compatible |
+| [AgriciDaniel/banana-claude](https://github.com/AgriciDaniel/banana-claude) | beta | Claude-as-Creative-Director for Gemini Nano Banana (generate/edit domain modes) |
+| [YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill](https://github.com/YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill) | beta | Search 10k+ curated Nano Banana Pro prompts (multi-model friendly) |
+| [devonjones/skill-nano-banana](https://github.com/devonjones/skill-nano-banana) | beta | Direct Nano Banana Pro generate/edit/compose skill |
+| [OSideMedia/higgsfield-ai-prompt-skill](https://github.com/OSideMedia/higgsfield-ai-prompt-skill) | beta | Higgsfield prompt library + discipline notes (cinema production patterns) |
+| [black-forest-labs/skills](https://github.com/black-forest-labs/skills) | production | Official FLUX image skills (still-image backend alternative) |
+| [ZeroLu/awesome-nanobanana-pro](https://github.com/ZeroLu/awesome-nanobanana-pro) | experimental | Prompt/style collection for Nano Banana Pro experiments |
+| [dahaltn/awesome-nano-banana-pro-prompts](https://github.com/dahaltn/awesome-nano-banana-pro-prompts) | experimental | Large curated prompt dump (filter hard before agent install) |
+
+**Related FrankX awesome lists (spoke, not replace):**
+
+- [awesome-design-agent-skills](https://github.com/frankxai/awesome-design-agent-skills) — stills / brand / design agent skills
+- [awesome-motion-design-agent-skills](https://github.com/frankxai/awesome-motion-design-agent-skills) — motion / Remotion / video agent skills
+- Local Creative OS (not a public skill dump): `starlight-design-intelligence/brand-image-system` + Hermes skills `brand-image-creative-os`, `higgsfield-starlight-os`
+
+**Provenance note:** `banana-pro-director` / `cinema-worldbuilder` trace to Joey / Higgsfield-team-adjacent cinema practice (CTRL / OUR TURN style pipelines). Prefer the structured repos above over Instagram DM drops; always review license + strip studio-local private blocks before public redistribution.
 
 ---
 
