@@ -1,0 +1,113 @@
+diff --git a/GETTING_STARTED.md b/GETTING_STARTED.md
+index a8ee882..650fd80 100644
+--- a/GETTING_STARTED.md
++++ b/GETTING_STARTED.md
+@@ -1,23 +1,31 @@
+-# Getting Started with Agentic Swarms
++# Getting Started with Agentic Skills
+ 
+-Welcome to the future of software development and automation. This repository provides a curated collection of agentic tools, MCP servers, and Claude Code skills designed to give you superpowers.
++Welcome to the community! If you're new to Claude Code, AI agents, or our ecosystem, this guide will help you get your first agentic workflow running.
+ 
+-## What is Claude Code?
+-Claude Code is an agentic CLI tool that allows Anthropic's Claude models to interact directly with your local file system, run terminal commands, and execute complex workflows autonomously.
++## 1. Prerequisites
++- **Claude Code**: Ensure you have [Claude Code](https://github.com/anthropics/claude-code) installed.
++- **API Keys**: You will need an Anthropic API key to run Claude models.
+ 
+-## What is an MCP Server?
+-The **Model Context Protocol (MCP)** is an open standard that enables AI models to connect securely to local or remote data sources and tools. Think of MCP servers as "plugins" that give Claude the ability to read your database, interact with GitHub, or manage your calendar.
++## 2. Installing Your First Free Skill
++This repository contains "Lite" versions of our premium agentic skills. 
+ 
+-## How to Get Started (Free Tier)
+-1. **Install Claude Code:** Follow the official instructions from Anthropic to install the CLI.
+-2. **Explore Our Curated Directories:** Browse the `README.md` to discover top-tier open-source tools and frameworks in this niche.
+-3. **Try the Lite Skills:** We include basic starter skills in this repository. Place them in your `.agents/skills/` directory and let Claude automate your basic tasks.
++To use a skill:
++1. Navigate to the `skills/` folder in this repository.
++2. Copy the desired skill folder (e.g., `basic-design-reviewer`) into your global skills directory (usually `~/.gemini/config/skills` or `.agents/skills` in your project).
++3. Open your terminal in your project directory and start Claude Code.
++4. Prompt Claude to use the skill. For example: *"Review my UI design using the basic-design-reviewer skill."*
+ 
+-## Unlock Premium Capabilities
+-While we provide immense value here for free, the true magic happens when you orchestrate multiple agents together into a **Swarm**.
++## 3. Upgrading to Premium Products
++While the skills in this repository are free and open-source, they are the "Lite" versions of our full capabilities. 
+ 
+-If you're ready to deploy production-grade agentic pipelines (like the **Visual Creation Loop**, the **Product Engine**, or full **CACOS** operating system), check out our premium offerings at [frankx.ai/products](https://frankx.ai/products).
++If you want to access:
++- **Full multi-agent Swarms** (e.g., The Visual Creation Loop)
++- **Advanced memory retention** (AgentDB)
++- **Enterprise-grade guardrails and prompts**
+ 
+-> "The open-source community provides the raw materials. Our premium products provide the blueprints and automated factories to assemble them at scale."
++You can purchase our Premium Tier products. Look for the **"Get it on Gumroad"** or **"View on frankx.ai"** links in the README!
+ 
+-Happy building!
++## 4. Join the Community
++Stay updated with the latest AI workflows and agent architectures.
++- [Visit frankx.ai](https://frankx.ai) for deep dives and Premium OS products.
++- Engage with us on GitHub by submitting PRs and sharing how you use these tools!
+diff --git a/README.md b/README.md
+index 87b51a0..1175f8b 100644
+--- a/README.md
++++ b/README.md
+@@ -1,4 +1,4 @@
+-﻿<div align="center">
++<div align="center">
+ 
+ # Awesome Hermes Agent Skills
+ 
+@@ -14,18 +14,19 @@
+ 
+ ---
+ 
+-## ðŸŒŸ Our Advantage
++## 🌟 Our Advantage
+ 
+ > [!NOTE]
+ > Unlike other generic lists, this repository **Specialized tools and skill frameworks for Hermes.**
+ 
+ We follow the **Hub-and-Spoke Traffic Funnel** model. This is an active, deeply engineered repository designed for the GenCreator economy. Every tool, skill, and framework here is tested and ready for production deployment within the FrankX ecosystem.
+ 
+-## ðŸ“¦ Recommended Claude Code Skills & Agents
++## 📦 Recommended Claude Code Skills & Agents
+ 
+ | Name | Description | Link |
+ | :--- | :--- | :--- |
+ | **ACOS Architecture Expert** | The definitive standard for agentic systems. | [Claude Skills Library](https://frankx.ai/claude-skills-library) |
++| **Premium Swarm: Visual Creation Loop** | Full multi-agent pipeline for high-end mascot & asset generation. | [Get it on Gumroad](https://frankx.gumroad.com/l/visual-creation) <br/> [View on frankx.ai](https://frankx.ai/products) |
+ | **Product Engine** | Agentic workflows for immediate deployment. | [frankx.ai](https://frankx.ai) |
+ 
+ 
+@@ -33,7 +34,7 @@ We follow the **Hub-and-Spoke Traffic Funnel** model. This is an active, deeply
+ > [!TIP]
+ > **New to Agents?** Check out our [Getting Started Guide](./GETTING_STARTED.md) to set up your first Claude Code skill for free.
+ >
+-> **Ready to Scale?** Unlock premium Agent Swarms on [Gumroad](https://gumroad.com/frankxai) or [frankx.ai/products](https://frankx.ai/products).## ðŸš€ How It Integrates
++> **Ready to Scale?** Unlock premium Agent Swarms on [Gumroad](https://gumroad.com/frankxai) or [frankx.ai/products](https://frankx.ai/products).## 🚀 How It Integrates
+ 
+ This repository connects directly into the broader ecosystem:
+ - Serves as a definitive, high-signal curation list for AI Architects.
+@@ -42,17 +43,17 @@ This repository connects directly into the broader ecosystem:
+ 
+ ---
+ 
+-## ðŸ› ï¸ Contributing & Standards
++## 🛠️ Contributing & Standards
+ 
+ We welcome contributions that align with our core thesis of verifiable, world-healing, and rigorously-tested agent intelligence.
+ 
+ Please read our [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
+ 
+-## ðŸ“„ License
++## 📄 License
+ 
+ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+ 
+ <div align="center">
+-  <sub>Built with â¤ï¸ by the FrankX Superintelligence System</sub>
++  <sub>Built with ❤️ by the FrankX Superintelligence System</sub>
+ </div>
+ 
