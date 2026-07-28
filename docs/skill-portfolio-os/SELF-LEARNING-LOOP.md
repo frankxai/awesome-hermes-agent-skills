@@ -118,3 +118,7 @@ Is the learning portable without Frank secrets?
 - frank-overlay for claude-code leaf rebase  
 - Funnel doc + weekly cron already scheduled  
 - Learning: never push FrankX branches that inherited `.asph-wip` multi-100MB patches — branch from origin/main with pathspec commits only  
+
+### 2026-07-28 — Weekly portfolio ops
+
+- Reconciled duplicate shipped entries out of the T1 promote-ready queue; the generic Windows project-scoped search note remains the next portable candidate, while three absorbed redirect skills remain intentional T0 compatibility aliases.

@@ -2,9 +2,7 @@
 
 ## Ready to sanitize & ship (free)
 
-1. **coding-agents Superpack** — discovery, prompting template, Model Council, comparison recipes only  
-2. **todo-discipline (generic)** — hard completion gate without private cron job names  
-3. **Windows project-scoped search note** — 1-page generic (not Phone Link incident skill)  
+1. **Windows project-scoped search note** — 1-page generic (not Phone Link incident skill)
 
 ## Blocked (need more work)
 
