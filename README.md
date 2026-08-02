@@ -33,7 +33,7 @@ Also see:
 - [SamurAIGPT/awesome-hermes-agent](https://github.com/SamurAIGPT/awesome-hermes-agent)  
 
 Maturity labels: **production** · **beta** · **experimental**  
-Research pulse: **2026-07-16**
+Research pulse: **2026-08-03**
 
 ---
 
@@ -199,6 +199,23 @@ Not pure `SKILL.md` packs, but skill operators use them constantly:
 | [luoyuctl/agenttrace](https://github.com/luoyuctl/agenttrace) | Session audit skill companion |
 | [fkiene/llmtrim](https://github.com/fkiene/llmtrim) | Trim tool schemas before model calls |
 | [awesome-hermes-agents](https://github.com/frankxai/awesome-hermes-agents) | Full agents/UI/deploy list |
+
+---
+
+## August 2026 research additions
+
+These external projects were re-checked through GitHub metadata on 2026-08-03. They complement—not replace—the Hermes-native resources above.
+
+| Project | Pulse snapshot | Why it matters |
+| --- | --- | --- |
+| [Anthropic skills](https://github.com/anthropics/skills) | NOASSERTION · 165,802★ | Official public Agent Skills collection; inspect each skill’s safety boundary. |
+| [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | MIT · 81,348★ | Production-oriented engineering skills for coding agents. |
+| [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | MIT · 44,310★ | Large agent-first catalog; curate rather than bulk-install. |
+| [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | MIT · 29,444★ | Peer directory of cross-harness agent skills. |
+| [microsoft/skills](https://github.com/microsoft/skills) | MIT · 2,853★ | Vendor-maintained skills, MCP servers, custom agents, and AGENTS.md guidance. |
+| [garrytan/gstack](https://github.com/garrytan/gstack) | MIT · 125,927★ | Product, design, engineering, and QA workflows that inform operator skills. |
+
+License posture and activity are a dated discovery snapshot; follow each primary project’s current README and license before installation.
 
 ---
 
