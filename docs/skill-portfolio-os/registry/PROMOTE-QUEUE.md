@@ -1,10 +1,8 @@
 # Promote Queue
 
-## Ready to sanitize & ship (free)
+## In progress (free)
 
-1. **coding-agents Superpack** — discovery, prompting template, Model Council, comparison recipes only  
-2. **todo-discipline (generic)** — hard completion gate without private cron job names  
-3. **Windows project-scoped search note** — 1-page generic (not Phone Link incident skill)  
+1. **Windows project-scoped search note** — T1 generic one-page note (not the Phone Link incident skill); scoped 2026-08-03 for a sanitized draft with no host, device, or personal-path detail before public promotion.
 
 ## Blocked (need more work)
 

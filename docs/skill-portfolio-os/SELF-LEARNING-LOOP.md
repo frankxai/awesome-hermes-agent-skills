@@ -118,3 +118,5 @@ Is the learning portable without Frank secrets?
 - frank-overlay for claude-code leaf rebase  
 - Funnel doc + weekly cron already scheduled  
 - Learning: never push FrankX branches that inherited `.asph-wip` multi-100MB patches — branch from origin/main with pathspec commits only  
+
+- 2026-08-03 — Weekly review: curator status still reported only `coding-agents` pinned after two local pin commands reported success; treat runtime-pin persistence as a T0/T4 operational verification item, not as a public-pack change.
