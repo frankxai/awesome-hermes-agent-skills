@@ -121,3 +121,4 @@ Is the learning portable without Frank secrets?
 
 - 2026-08-03 — Weekly review: curator status still reported only `coding-agents` pinned after two local pin commands reported success; treat runtime-pin persistence as a T0/T4 operational verification item, not as a public-pack change.
 - 2026-08-05 — Weekly review: curator again reported only `coding-agents` pinned while the registry requires five pins; retain this as a T0/T4 runtime-verification backlog, keep the three absorb-complete redirect stubs as documented aliases, and leave the sanitized Windows project-scoped search note as the active T1 promotion candidate.
+- 2026-08-06 — Weekly review: curator still reports only `coding-agents` pinned (38 stale, none archived); public-pack scan found no redirect stubs, while the registry retains the three absorbed runtime aliases, so keep runtime-pin persistence as T0/T4 verification and the sanitized project-scoped-search note as the active T1 promotion candidate.
