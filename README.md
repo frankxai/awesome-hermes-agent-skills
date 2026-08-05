@@ -27,13 +27,15 @@ FrankX free packs are listed last under [Maintained in this repo](#maintained-in
 | [awesome-hermes-agents](https://github.com/frankxai/awesome-hermes-agents) | Agents, UIs, memory, deploy, multi-agent, operator docs |
 | **This repo** | Skills / plugins / skill factories (web-wide) |
 
-Also see:
+Also see these independent peers:
 
-- [0xNyk/awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent)  
-- [SamurAIGPT/awesome-hermes-agent](https://github.com/SamurAIGPT/awesome-hermes-agent)  
+- [0xNyk/awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) — Hermes-specific directory of skills, plugins, memory providers, and tools.
+- [SamurAIGPT/awesome-hermes-agent](https://github.com/SamurAIGPT/awesome-hermes-agent) — hand-picked Hermes resources with maturity tags.
+- [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) — cross-harness directory, especially useful for official vendor skill discovery.
+- [ZeroPointRepo/awesome-hermes-skills](https://github.com/ZeroPointRepo/awesome-hermes-skills) — Hermes-focused community catalog; verify each package before installation.
 
 Maturity labels: **production** · **beta** · **experimental**  
-Research pulse: **2026-07-16**
+Research pulse: **2026-08-06**
 
 ---
 
@@ -46,6 +48,9 @@ Research pulse: **2026-07-16**
 - [Domain skill packs](#domain-skill-packs)
 - [Skill factories & evolution](#skill-factories--evolution)
 - [Related tools (skills-adjacent)](#related-tools-skills-adjacent)
+- [August 2026 research additions](#august-2026-research-additions)
+- [6-Pillar curation lens](#6-pillar-curation-lens)
+- [Explore the Full FrankX Awesome Ecosystem (17 lists) (optional)](#explore-the-full-frankx-awesome-ecosystem-17-lists-optional)
 - [Maintained in this repo (optional)](#maintained-in-this-repo-optional)
 - [Skill Portfolio OS](#skill-portfolio-os)
 - [Contributing](#contributing)
@@ -96,7 +101,6 @@ Prefer the project's own README for exact install (`hermes skills install …`, 
 | [Lethe044/hermes-skill-marketplace](https://github.com/Lethe044/hermes-skill-marketplace) | experimental | Agent writes/tests/publishes skills |
 | [beiyuii/personal-api-skill](https://github.com/beiyuii/personal-api-skill) | experimental | Obsidian vault → identity layer for agents |
 | [Andrew-Girgis/microsoft-workspace-skill](https://github.com/Andrew-Girgis/microsoft-workspace-skill) | beta | Outlook / M365 Graph email+calendar skill |
-| [Rainhoole/hermes-agent-acp-skill](https://github.com/Rainhoole/hermes-agent-acp-skill) | beta | Multi-agent delegation Hermes ↔ Codex ↔ Claude Code |
 
 ---
 
@@ -124,7 +128,6 @@ These install on Hermes **and** often Claude Code / Cursor / OpenClaw / Codex.
 | [cablate/Agentic-MCP-Skill](https://github.com/cablate/Agentic-MCP-Skill) | beta | MCP client + agentskills validation |
 | [Merit-Systems/agentcash-skills](https://github.com/Merit-Systems/agentcash-skills) | beta | Wallet-backed access to 300+ APIs |
 | [Xquik-dev/x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) | beta | Large X/Twitter skill surface |
-| [voidborne-d/master-skill](https://github.com/voidborne-d/master-skill) | beta | Distill an industry domain into a portable skill |
 | [remoet-labs/agent-skills](https://github.com/remoet-labs/agent-skills) | production | Job search by tech stack + MCP |
 | [Sequenzy/skills](https://github.com/Sequenzy/skills) | beta | Email marketing lifecycle skills |
 | [resemble-ai/detect-skill](https://github.com/resemble-ai/detect-skill) | beta | Deepfake / media authenticity for agents |
@@ -135,7 +138,6 @@ These install on Hermes **and** often Claude Code / Cursor / OpenClaw / Codex.
 
 | Project | Domain |
 | --- | --- |
-| [svenmedina07-ship-it/skills (acca-tracker)](https://github.com/svenmedina07-ship-it/skills/tree/main/acca-tracker) | Sports accumulator tracking |
 | [setasoma/mycodo-hermes-skill](https://github.com/setasoma/mycodo-hermes-skill) | IoT mushroom cultivation |
 | [bbolinger/snapmaker-u1-toolkit](https://github.com/bbolinger/snapmaker-u1-toolkit) | 3D printer automation |
 | [currentslab/news-api-skills](https://github.com/currentslab/news-api-skills) | News search/read skills |
@@ -170,6 +172,65 @@ Not pure `SKILL.md` packs, but skill operators use them constantly:
 | [luoyuctl/agenttrace](https://github.com/luoyuctl/agenttrace) | Session audit skill companion |
 | [fkiene/llmtrim](https://github.com/fkiene/llmtrim) | Trim tool schemas before model calls |
 | [awesome-hermes-agents](https://github.com/frankxai/awesome-hermes-agents) | Full agents/UI/deploy list |
+
+---
+
+## August 2026 research additions
+
+External projects below were resolved through the GitHub repository and `README.md` APIs on **2026-08-06**. Stars are an approximate, date-bound discovery signal—not an installation recommendation. Read the project’s current documentation, license, and security posture before adopting anything.
+
+| Project | Pulse snapshot | Why it belongs here | Caveat |
+| --- | --- | --- | --- |
+| [Anthropic skills](https://github.com/anthropics/skills) | 166,478★ · active · `NOASSERTION` | Public agent-skill collection, including a canonical skill-creator example. | Treat the repository license posture as needing manual review. |
+| [Google skills](https://github.com/google/skills) | 15,634★ · active · Apache-2.0 | Vendor-maintained skills for Google products and technologies. | Follow product-specific setup and data boundaries. |
+| [Hugging Face skills](https://github.com/huggingface/skills) | 10,900★ · active · Apache-2.0 | Official skills for the Hugging Face ecosystem. | Check each integration’s model and token requirements. |
+| [Remotion skills](https://github.com/remotion-dev/skills) | 4,212★ · active · `NOASSERTION` | Programmatic-video skills with a clear production domain. | Manually review licensing and rendering dependencies. |
+| [Addy Osmani agent skills](https://github.com/addyosmani/agent-skills) | 81,954★ · active · MIT | Production-oriented engineering skills for coding agents. | Adapt to the target repository; do not blindly apply workflow rules. |
+| [Matt Pocock skills](https://github.com/mattpocock/skills) | 204,886★ · active · MIT | Small, composable engineering skills intended for real application work. | Community-maintained; assess fit per skill. |
+| [Obra Superpowers](https://github.com/obra/superpowers) | 267,268★ · active · MIT | A composable skill-based software-development methodology with explicit planning and TDD practice. | Methodology, not a substitute for local repository instructions. |
+| [Obsidian skills](https://github.com/kepano/obsidian-skills) | 44,167★ · active · MIT | Agent Skills-spec-compatible workflows for open Obsidian formats. | Inspect vault permissions and plugins before use. |
+| [ZeroPointRepo awesome-hermes-skills](https://github.com/ZeroPointRepo/awesome-hermes-skills) | 377★ · active · MIT | Hermes-focused peer catalog that expands community discovery. | A catalog is discovery evidence; verify each downstream skill independently. |
+| [VoltAgent awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 29,644★ · active · MIT | Broad peer directory with official-vendor and community sections. | Use it to find primary sources rather than treating every listing as vetted. |
+
+---
+
+## 6-Pillar curation lens
+
+This lens describes how we evaluate an operator skill after web-first evidence, repository ownership, license posture, and install path—not instead of them.
+
+```mermaid
+mindmap
+  root((Hermes skill curation))
+    Strategy
+      operator outcome
+      scope and fit
+    Governance
+      provenance
+      license review
+    Talent
+      human-agent collaboration
+      reusable practice
+    Technology
+      SKILL.md packages
+      MCP and harness compatibility
+    Data
+      source-backed research pulses
+      update evidence
+    Ethics
+      least privilege
+      transparent limitations
+```
+
+---
+
+## Explore the Full FrankX Awesome Ecosystem (17 lists) (optional)
+
+These companion lists are optional follow-on reading—not a substitute for the independent catalog above.
+
+- [awesome-jarvis](https://github.com/frankxai/awesome-jarvis) · [awesome-hermes-agents](https://github.com/frankxai/awesome-hermes-agents) · [awesome-manifestation-skills](https://github.com/frankxai/awesome-manifestation-skills) · [awesome-ai-coe](https://github.com/frankxai/awesome-ai-coe)
+- [awesome-agentic-income](https://github.com/frankxai/awesome-agentic-income) · [awesome-investor-agent-skills](https://github.com/frankxai/awesome-investor-agent-skills) · [awesome-design-agent-skills](https://github.com/frankxai/awesome-design-agent-skills) · [awesome-agent-operating-systems](https://github.com/frankxai/awesome-agent-operating-systems)
+- [awesome-hermes-agent-skills](https://github.com/frankxai/awesome-hermes-agent-skills) · [awesome-gamification-agent-skills](https://github.com/frankxai/awesome-gamification-agent-skills) · [awesome-wealth-agent-skills](https://github.com/frankxai/awesome-wealth-agent-skills) · [awesome-mind-agent-skills](https://github.com/frankxai/awesome-mind-agent-skills)
+- [awesome-cosmos-ai-agents](https://github.com/frankxai/awesome-cosmos-ai-agents) · [awesome-automation-agent-skills](https://github.com/frankxai/awesome-automation-agent-skills) · [awesome-payment-agent-skills](https://github.com/frankxai/awesome-payment-agent-skills) · [awesome-motion-design-agent-skills](https://github.com/frankxai/awesome-motion-design-agent-skills) · [awesome-music-agent-skills](https://github.com/frankxai/awesome-music-agent-skills)
 
 ---
 
@@ -221,5 +282,5 @@ Especially: [CLASSIFICATION.md](./docs/skill-portfolio-os/CLASSIFICATION.md) · 
   <sub>Curated by <a href="https://github.com/frankxai">frankxai</a>
   · Ecosystem also: <a href="https://github.com/0xNyk/awesome-hermes-agent">0xNyk</a> · <a href="https://github.com/SamurAIGPT/awesome-hermes-agent">SamurAIGPT</a>
   · Agents companion: <a href="https://github.com/frankxai/awesome-hermes-agents">awesome-hermes-agents</a>
-  · Pulse: <strong>2026-07-16</strong></sub>
+  · Pulse: <strong>2026-08-06</strong></sub>
 </p>
