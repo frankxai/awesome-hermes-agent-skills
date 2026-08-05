@@ -33,7 +33,7 @@ Also see:
 - [SamurAIGPT/awesome-hermes-agent](https://github.com/SamurAIGPT/awesome-hermes-agent)  
 
 Maturity labels: **production** · **beta** · **experimental**  
-Research pulse: **2026-08-03**
+Research pulse: **2026-08-05**
 
 ---
 
@@ -47,7 +47,10 @@ Research pulse: **2026-08-03**
 - [Domain skill packs](#domain-skill-packs)
 - [Skill factories & evolution](#skill-factories--evolution)
 - [Related tools (skills-adjacent)](#related-tools-skills-adjacent)
+- [August 2026 research additions](#august-2026-research-additions)
+- [6-Pillar curation lens](#6-pillar-curation-lens)
 - [Maintained in this repo (optional)](#maintained-in-this-repo-optional)
+- [Explore the Full FrankX Awesome Ecosystem (17 lists) (optional)](#explore-the-full-frankx-awesome-ecosystem-17-lists-optional)
 - [Skill Portfolio OS](#skill-portfolio-os)
 - [Contributing](#contributing)
 
@@ -97,7 +100,6 @@ Prefer the project's own README for exact install (`hermes skills install …`, 
 | [Lethe044/hermes-skill-marketplace](https://github.com/Lethe044/hermes-skill-marketplace) | experimental | Agent writes/tests/publishes skills |
 | [beiyuii/personal-api-skill](https://github.com/beiyuii/personal-api-skill) | experimental | Obsidian vault → identity layer for agents |
 | [Andrew-Girgis/microsoft-workspace-skill](https://github.com/Andrew-Girgis/microsoft-workspace-skill) | beta | Outlook / M365 Graph email+calendar skill |
-| [Rainhoole/hermes-agent-acp-skill](https://github.com/Rainhoole/hermes-agent-acp-skill) | beta | Multi-agent delegation Hermes ↔ Codex ↔ Claude Code |
 
 ---
 
@@ -117,14 +119,12 @@ These install on Hermes **and** often Claude Code / Cursor / OpenClaw / Codex.
 | [longbridge/skills](https://github.com/longbridge/skills) | production | Markets / portfolio skills (multi-region) |
 | [DougTrajano/pydantic-ai-skills](https://github.com/DougTrajano/pydantic-ai-skills) | production | Type-safe Pydantic AI + agentskills.io |
 | [nexu-io/open-design](https://github.com/nexu-io/open-design) | production | Design system + media skills; Hermes via ACP |
-| [Yarmoluk/cognify-skills](https://github.com/Yarmoluk/cognify-skills) | beta | CRM / invoicing / PM business ops |
 | [tiann/execplan-skill](https://github.com/tiann/execplan-skill) | beta | Long-running task lifecycle / checkpoints |
 | [ReinaMacCredy/maestro](https://github.com/ReinaMacCredy/maestro) | beta | Skill orchestration with planning + tracking |
 | [armelhbobdad/bmad-module-skill-forge](https://github.com/armelhbobdad/bmad-module-skill-forge) | beta | Convert repos/docs into skills |
 | [cablate/Agentic-MCP-Skill](https://github.com/cablate/Agentic-MCP-Skill) | beta | MCP client + agentskills validation |
 | [Merit-Systems/agentcash-skills](https://github.com/Merit-Systems/agentcash-skills) | beta | Wallet-backed access to 300+ APIs |
 | [Xquik-dev/x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) | beta | Large X/Twitter skill surface |
-| [voidborne-d/master-skill](https://github.com/voidborne-d/master-skill) | beta | Distill an industry domain into a portable skill |
 | [remoet-labs/agent-skills](https://github.com/remoet-labs/agent-skills) | production | Job search by tech stack + MCP |
 | [Sequenzy/skills](https://github.com/Sequenzy/skills) | beta | Email marketing lifecycle skills |
 | [resemble-ai/detect-skill](https://github.com/resemble-ai/detect-skill) | beta | Deepfake / media authenticity for agents |
@@ -164,7 +164,7 @@ Prompt-director skills for **Nano Banana / Banana Pro stills**, **Seedance video
 
 | Project | Domain |
 | --- | --- |
-| [svenmedina07-ship-it/skills (acca-tracker)](https://github.com/svenmedina07-ship-it/skills/tree/main/acca-tracker) | Sports accumulator tracking |
+| [banozz0/acca-tracker](https://github.com/banozz0/acca-tracker) | Read-only football accumulator/parlay tracking with safety boundaries |
 | [setasoma/mycodo-hermes-skill](https://github.com/setasoma/mycodo-hermes-skill) | IoT mushroom cultivation |
 | [bbolinger/snapmaker-u1-toolkit](https://github.com/bbolinger/snapmaker-u1-toolkit) | 3D printer automation |
 | [currentslab/news-api-skills](https://github.com/currentslab/news-api-skills) | News search/read skills |
@@ -204,18 +204,51 @@ Not pure `SKILL.md` packs, but skill operators use them constantly:
 
 ## August 2026 research additions
 
-These external projects were re-checked through GitHub metadata on 2026-08-03. They complement—not replace—the Hermes-native resources above.
+These external projects were re-checked through GitHub repository and primary-README metadata on 2026-08-05. They complement—not replace—the Hermes-native resources above.
 
 | Project | Pulse snapshot | Why it matters |
 | --- | --- | --- |
-| [Anthropic skills](https://github.com/anthropics/skills) | NOASSERTION · 165,802★ | Official public Agent Skills collection; inspect each skill’s safety boundary. |
-| [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | MIT · 81,348★ | Production-oriented engineering skills for coding agents. |
-| [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | MIT · 44,310★ | Large agent-first catalog; curate rather than bulk-install. |
-| [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | MIT · 29,444★ | Peer directory of cross-harness agent skills. |
-| [microsoft/skills](https://github.com/microsoft/skills) | MIT · 2,853★ | Vendor-maintained skills, MCP servers, custom agents, and AGENTS.md guidance. |
-| [garrytan/gstack](https://github.com/garrytan/gstack) | MIT · 125,927★ | Product, design, engineering, and QA workflows that inform operator skills. |
+| [Anthropic skills](https://github.com/anthropics/skills) | NOASSERTION · 166,388★ | Public Agent Skills collection; inspect each skill’s safety boundary. |
+| [Agent Skills specification](https://github.com/agentskills/agentskills) | Apache-2.0 · 23,873★ | Portable skill-package specification and documentation. |
+| [Google skills](https://github.com/google/skills) | Apache-2.0 · 15,598★ | Vendor-maintained skills for Google products and technologies. |
+| [Hugging Face skills](https://github.com/huggingface/skills) | Apache-2.0 · 10,898★ | Official skills for the Hugging Face ecosystem. |
+| [Remotion skills](https://github.com/remotion-dev/skills) | NOASSERTION · 4,209★ | Programmatic-video skills; inspect license and project install guidance. |
+| [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | MIT · 81,757★ | Production-oriented engineering skills for coding agents. |
+| [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | MIT · 44,482★ | Large agent-first catalog; curate rather than bulk-install. |
+| [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | MIT · 29,619★ | Peer directory of cross-harness agent skills. |
+| [microsoft/skills](https://github.com/microsoft/skills) | MIT · 2,863★ | Vendor-maintained skills, MCP servers, custom agents, and AGENTS.md guidance. |
+| [garrytan/gstack](https://github.com/garrytan/gstack) | MIT · 126,380★ | Product, design, engineering, and QA workflows that inform operator skills. |
 
 License posture and activity are a dated discovery snapshot; follow each primary project’s current README and license before installation.
+
+---
+
+## 6-Pillar curation lens
+
+This lens explains how a skill serves an operator; it never substitutes for a project’s own documentation, license, or security review.
+
+```mermaid
+mindmap
+  root((Hermes-compatible skill curation))
+    Strategy
+      task framing
+      operator outcomes
+    Governance
+      provenance
+      license and install review
+    Talent
+      human-agent collaboration
+      reusable skill practice
+    Technology
+      skills
+      MCP and harness compatibility
+    Data
+      source-backed research pulses
+      inspectable SKILL.md packages
+    Ethics
+      least privilege
+      transparent limitations
+```
 
 ---
 
@@ -234,6 +267,17 @@ cp -R awesome-hermes-agent-skills/skills/todo-discipline ~/.hermes/skills/
 ```
 
 **Rule:** stranger can run it with no private secrets → free. Brand/production CoE kits stay gated elsewhere.
+
+---
+
+## Explore the Full FrankX Awesome Ecosystem (17 lists) (optional)
+
+These are companion lists, not a substitute for the independent projects curated above.
+
+- [awesome-jarvis](https://github.com/frankxai/awesome-jarvis) · [awesome-hermes-agents](https://github.com/frankxai/awesome-hermes-agents) · [awesome-manifestation-skills](https://github.com/frankxai/awesome-manifestation-skills) · [awesome-ai-coe](https://github.com/frankxai/awesome-ai-coe)
+- [awesome-agentic-income](https://github.com/frankxai/awesome-agentic-income) · [awesome-investor-agent-skills](https://github.com/frankxai/awesome-investor-agent-skills) · [awesome-design-agent-skills](https://github.com/frankxai/awesome-design-agent-skills) · [awesome-agent-operating-systems](https://github.com/frankxai/awesome-agent-operating-systems)
+- [awesome-hermes-agent-skills](https://github.com/frankxai/awesome-hermes-agent-skills) · [awesome-gamification-agent-skills](https://github.com/frankxai/awesome-gamification-agent-skills) · [awesome-wealth-agent-skills](https://github.com/frankxai/awesome-wealth-agent-skills) · [awesome-mind-agent-skills](https://github.com/frankxai/awesome-mind-agent-skills)
+- [awesome-cosmos-ai-agents](https://github.com/frankxai/awesome-cosmos-ai-agents) · [awesome-automation-agent-skills](https://github.com/frankxai/awesome-automation-agent-skills) · [awesome-payment-agent-skills](https://github.com/frankxai/awesome-payment-agent-skills) · [awesome-motion-design-agent-skills](https://github.com/frankxai/awesome-motion-design-agent-skills) · [awesome-music-agent-skills](https://github.com/frankxai/awesome-music-agent-skills)
 
 ---
 
@@ -267,5 +311,5 @@ Especially: [CLASSIFICATION.md](./docs/skill-portfolio-os/CLASSIFICATION.md) · 
   <sub>Curated by <a href="https://github.com/frankxai">frankxai</a>
   · Ecosystem also: <a href="https://github.com/0xNyk/awesome-hermes-agent">0xNyk</a> · <a href="https://github.com/SamurAIGPT/awesome-hermes-agent">SamurAIGPT</a>
   · Agents companion: <a href="https://github.com/frankxai/awesome-hermes-agents">awesome-hermes-agents</a>
-  · Pulse: <strong>2026-07-16</strong></sub>
+  · Pulse: <strong>2026-08-05</strong></sub>
 </p>
