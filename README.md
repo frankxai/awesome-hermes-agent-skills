@@ -116,6 +116,7 @@ These install on Hermes **and** often Claude Code / Cursor / OpenClaw / Codex.
 | [Agents365-ai/drawio-skill](https://github.com/Agents365-ai/drawio-skill) | production | draw.io from natural language |
 | [ZeroPointRepo/youtube-skills](https://github.com/ZeroPointRepo/youtube-skills) | production | YouTube search + robust transcripts |
 | [Infrasity-Labs/dev-gtm-claude-skills](https://github.com/Infrasity-Labs/dev-gtm-claude-skills) | production | SEO / GEO / developer marketing skills |
+| [nowork-studio/NotFair](https://github.com/nowork-studio/NotFair) | production | 42 host-agnostic SEO, GEO, Google Ads, and Meta Ads skills; live account actions use approval-gated MCP connections |
 | [CorpusIQ/corpusiq-docs](https://github.com/CorpusIQ/corpusiq-docs) | production | Business ops + many SaaS connectors via MCP |
 | [longbridge/skills](https://github.com/longbridge/skills) | production | Markets / portfolio skills (multi-region) |
 | [DougTrajano/pydantic-ai-skills](https://github.com/DougTrajano/pydantic-ai-skills) | production | Type-safe Pydantic AI + agentskills.io |
