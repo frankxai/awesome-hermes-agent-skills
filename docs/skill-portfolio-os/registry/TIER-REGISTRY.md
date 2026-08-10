@@ -32,7 +32,7 @@
 | mcr-multi-cli-router | Absorb into coding-agents routing section | **done** 2026-07-15 → redirect stub |
 | agy-mcr-orchestrator | Absorb into coding-agents + agy-cli | **done** → redirect stub |
 | si-starlight-intelligence | Absorb into starlight-queen | **done** → redirect stub |
-| build-in-public / daily-building-in-public | Merge one | pending |
+| build-in-public / daily-building-in-public | `daily-building-in-public` absorbed into `build-in-public`; retain compatibility redirect | **done** 2026-08-10 |
 | ai-agent-token-tracking / starlight-token-tracker | Merge umbrella + alias | pending |
 
 ## Gated product sources (do not free)
