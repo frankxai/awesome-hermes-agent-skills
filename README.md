@@ -87,6 +87,7 @@ Prefer the project's own README for exact install (`hermes skills install …`, 
 | Project | Maturity | Why |
 | --- | --- | --- |
 | [42-evey/hermes-plugins](https://github.com/42-evey/hermes-plugins) | beta | Goals, inter-agent bridge, model selection, cost control |
+| [CorsenAI/hermes-connector](https://github.com/CorsenAI/hermes-connector) | beta | Chrome extension and local companion for exact Hermes sessions and user-selected tabs |
 | [Romanescu11/hermes-skill-factory](https://github.com/Romanescu11/hermes-skill-factory) | beta | Auto-generate skills from real workflows |
 | [tlehman/litprog-skill](https://github.com/tlehman/litprog-skill) | beta | Literate programming for Hermes / Claude Code / OpenCode |
 | [Cranot/super-hermes](https://github.com/Cranot/super-hermes) | experimental | Teach Hermes to write stronger analytical prompts first |
