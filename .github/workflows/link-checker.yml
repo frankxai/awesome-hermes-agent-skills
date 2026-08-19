@@ -2,19 +2,31 @@ name: Link Checker
 
 on:
   schedule:
-    - cron: '0 0 * * 0' # Run every Sunday at midnight
-  workflow_dispatch: # Allow manual triggering
+    - cron: '0 0 1 * *' # monthly, 1st at midnight UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
 
 jobs:
   check-links:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      
+      - uses: actions/checkout@v5
+
       - name: Link Checker
-        uses: lycheeverse/lychee-action@v1.9.3
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
         with:
-          args: --accept=200,204,429 --timeout=10 --max-retries=3 --exclude-mail '*.md' '**/*.md'
-          fail: true # Fail the workflow if broken links are found
-        env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          args: --accept=200,204,429 --timeout=20 --max-retries=3 --exclude-mail './**/*.md'
+          fail: false
+          output: ./lychee/out.md
+
+      - name: Open or update broken-link issue
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Broken links detected
+          content-filepath: ./lychee/out.md
+          labels: broken-links
