@@ -21,7 +21,18 @@ jobs:
         with:
           args: --accept=200,204,429 --timeout=20 --max-retries=3 --exclude-mail './**/*.md'
           fail: false
+          jobSummary: true
           output: ./lychee/out.md
+
+      - name: Find existing broken-link issue
+        if: steps.lychee.outputs.exit_code != 0
+        id: existing
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          n=$(gh issue list --repo "$GITHUB_REPOSITORY" --label broken-links --state open \
+                --json number --jq 'max_by(.number).number // empty')
+          echo "number=$n" >> "$GITHUB_OUTPUT"
 
       - name: Open or update broken-link issue
         if: steps.lychee.outputs.exit_code != 0
@@ -30,3 +41,4 @@ jobs:
           title: Broken links detected
           content-filepath: ./lychee/out.md
           labels: broken-links
+          issue-number: ${{ steps.existing.outputs.number }}
