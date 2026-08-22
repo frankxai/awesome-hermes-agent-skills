@@ -123,6 +123,7 @@ These install on Hermes **and** often Claude Code / Cursor / OpenClaw / Codex.
 | [DougTrajano/pydantic-ai-skills](https://github.com/DougTrajano/pydantic-ai-skills) | production | Type-safe Pydantic AI + agentskills.io |
 | [nexu-io/open-design](https://github.com/nexu-io/open-design) | production | Design system + media skills; Hermes via ACP |
 | [runapi-ai/cli-skill](https://github.com/runapi-ai/cli-skill) | beta | Run AI image, video, music/audio, and model API jobs from CLI-capable agents |
+| [Orkas-AI/Orkas-VideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) | beta | 14-skill video-production pack with editable `plan.json` workflows and source-installable CLI/MCP tooling |
 | [Yarmoluk/cognify-skills](https://github.com/Yarmoluk/cognify-skills) | beta | CRM / invoicing / PM business ops |
 | [tiann/execplan-skill](https://github.com/tiann/execplan-skill) | beta | Long-running task lifecycle / checkpoints |
 | [ReinaMacCredy/maestro](https://github.com/ReinaMacCredy/maestro) | beta | Skill orchestration with planning + tracking |
