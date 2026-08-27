@@ -1,8 +1,8 @@
 # Tier Registry (living)
 
-**Updated:** 2026-07-15  
+**Updated:** 2026-08-27  
 **Source of truth for decisions:** CLASSIFICATION.md  
-**Runtime count (approx):** 153 skills
+**Runtime count (approx):** Hermes L0 is hundreds of SKILL.md — do not pack that tree. This repo ships 2 SKILL.md + 1 composition recipe.
 
 ## Pins (runtime)
 
@@ -20,6 +20,7 @@
 |----------|--------------|-------------|--------|
 | P0 | coding-agents **sanitized** Superpack | awesome-hermes-agent-skills | **shipped** 2026-07-15 |
 | P0 | todo-discipline generic | claude-skills-library + awesome-hermes-agent-skills | **shipped** (AHAS main; CSL PR #21) |
+| P0 | Process composition pack | skills.sh unlisted + `packs/PROCESS-PACK.md` | **recipe shipped** 2026-08-27; pack URL needs Vercel create |
 | P1 | Model Council reference only | starlight-swarm / ACOS | queued |
 | P1 | hermes-agent-skill-authoring (already official-aligned) | keep / mirror | ok |
 | P2 | process suite (plan, TDD, debug, spike) | ACOS | partial upstream |

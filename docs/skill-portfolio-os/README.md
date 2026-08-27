@@ -28,6 +28,7 @@ Scale, maintain, package, monetize, and self-improve Hermes/Claude skill fleets 
 
 ## Free packs in this repo
 
+- [`packs/PROCESS-PACK.md`](./packs/PROCESS-PACK.md) — skills.sh composition (5 skills; pack URL pending Vercel create)
 - [`skills/coding-agents-superpack`](../../skills/coding-agents-superpack/SKILL.md)  
 - [`skills/todo-discipline`](../../skills/todo-discipline/SKILL.md)  
 

@@ -243,12 +243,19 @@ Small **open-core** packs we ship for free. These are **not** “the list” —
 
 | Pack | Description | Path |
 | --- | --- | --- |
+| **Process** (composition) | Those two + Superpowers brainstorm / TDD / debug. Five skills. No MCP. | [`docs/skill-portfolio-os/packs/PROCESS-PACK.md`](./docs/skill-portfolio-os/packs/PROCESS-PACK.md) |
 | **coding-agents-superpack** | Multi-CLI discovery, structured prompts, council handoffs (sanitized) | [`skills/coding-agents-superpack`](./skills/coding-agents-superpack/SKILL.md) |
 | **todo-discipline** | Task list must match reality before “done” | [`skills/todo-discipline`](./skills/todo-discipline/SKILL.md) |
 
 ```bash
+npx skills add frankxai/awesome-hermes-agent-skills --skill todo-discipline --skill coding-agents-superpack
+npx skills add obra/superpowers --skill brainstorming --skill test-driven-development --skill systematic-debugging
+```
+
+```bash
 git clone https://github.com/frankxai/awesome-hermes-agent-skills.git
 cp -R awesome-hermes-agent-skills/skills/todo-discipline ~/.hermes/skills/
+cp -R awesome-hermes-agent-skills/skills/coding-agents-superpack ~/.hermes/skills/
 ```
 
 **Rule:** stranger can run it with no private secrets → free. Brand/production CoE kits stay gated elsewhere.

@@ -1,0 +1,14 @@
+{
+  "name": "frankx-process",
+  "description": "Todo discipline + coding-agents superpack + Superpowers brainstorm/TDD/debug. Five skills. No MCP.",
+  "skills": [
+    {
+      "source": "frankxai/awesome-hermes-agent-skills",
+      "skills": ["todo-discipline", "coding-agents-superpack"]
+    },
+    {
+      "source": "obra/superpowers",
+      "skills": ["brainstorming", "test-driven-development", "systematic-debugging"]
+    }
+  ]
+}

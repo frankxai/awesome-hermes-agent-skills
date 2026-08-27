@@ -2,9 +2,8 @@
 
 ## Ready to sanitize & ship (free)
 
-1. **coding-agents Superpack** — discovery, prompting template, Model Council, comparison recipes only  
-2. **todo-discipline (generic)** — hard completion gate without private cron job names  
-3. **Windows project-scoped search note** — 1-page generic (not Phone Link incident skill)  
+1. **Process pack URL** — recipe in `packs/PROCESS-PACK.md`; founder creates unlisted skills.sh pack (Vercel sign-in). Do not dump Hermes runtime.
+2. **Windows project-scoped search note** — 1-page generic (not Phone Link incident skill)
 
 ## Blocked (need more work)
 
@@ -20,6 +19,7 @@
 |------|------|------|-------|
 | 2026-07-15 | coding-agents-superpack | awesome-hermes-agent-skills | Sanitized free |
 | 2026-07-15 | todo-discipline | awesome-hermes-agent-skills + claude-skills-library/free-skills | Generic free |
+| 2026-08-27 | Process pack recipe | awesome-hermes-agent-skills `packs/PROCESS-PACK.md` | Composition only; skills.sh URL pending |
 
 ## Definition of shipped
 

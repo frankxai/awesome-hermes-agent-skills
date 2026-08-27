@@ -1,14 +1,17 @@
 # Free ↔ Premium funnel (Skill Portfolio)
 
-**Updated:** 2026-07-15
+**Updated:** 2026-08-27
 
 ## Free entry (gravity)
 
 | Asset | URL / path |
 |-------|------------|
 | Hermes free packs | https://github.com/frankxai/awesome-hermes-agent-skills |
+| **Process pack** (composition) | [`PROCESS-PACK.md`](./PROCESS-PACK.md) — todo-discipline + coding-agents-superpack + 3 Superpowers. skills.sh URL pending Vercel create |
 | coding-agents-superpack | `skills/coding-agents-superpack` |
 | todo-discipline | `skills/todo-discipline` |
+| Architect (listed) | `npx skills add frankxai/skills` |
+| Creator (listed) | `npx skills add frankxai/creator-skills` |
 | Claude free skills | https://github.com/frankxai/claude-skills-library (free-skills/) |
 | ACOS | https://github.com/frankxai/agentic-creator-os |
 | SIS | https://github.com/frankxai/Starlight-Intelligence-System |
