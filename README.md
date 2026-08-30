@@ -130,7 +130,7 @@ Prefer the project's own README for exact install (`hermes skills install …`, 
 | Project | Maturity | Why |
 | --- | --- | --- |
 | [agentskills.io](https://agentskills.io) | production | Open skill standard used by Hermes + many harnesses |
-| [wondelai/skills](https://github.com/wondelai/skills) | production | Large multi-harness skills library (~1.6k★) — great first install |
+| [wondelai/skills](https://github.com/wondelai/skills) | production | Large multi-harness skills library (~1.6k★) — browse, install **named** skills |
 | [0xNyk/awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) | production | Independent directory of skills/plugins/tools |
 | [SamurAIGPT/awesome-hermes-agent](https://github.com/SamurAIGPT/awesome-hermes-agent) | production | Hand-picked list with maturity tags |
 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) skills docs | production | Built-in skill system + curator loop |
@@ -179,7 +179,7 @@ These install on Hermes **and** often Claude Code / Cursor / OpenClaw / Codex.
 | [nexu-io/open-design](https://github.com/nexu-io/open-design) | production | Design system + media skills; Hermes via ACP |
 | [runapi-ai/cli-skill](https://github.com/runapi-ai/cli-skill) | beta | Run AI image, video, music/audio, and model API jobs from CLI-capable agents |
 | [Orkas-AI/Orkas-VideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) | beta | 14-skill video-production pack with editable `plan.json` workflows and source-installable CLI/MCP tooling |
-| [Yarmoluk/cognify-skills](https://github.com/Yarmoluk/cognify-skills) | beta | CRM / invoicing / PM business ops |
+| [sisodiabhumca/agent-skills](https://github.com/sisodiabhumca/agent-skills) | production | Vendor-neutral CRM, invoice, analytics, and ops skills |
 | [tiann/execplan-skill](https://github.com/tiann/execplan-skill) | beta | Long-running task lifecycle / checkpoints |
 | [ReinaMacCredy/maestro](https://github.com/ReinaMacCredy/maestro) | beta | Skill orchestration with planning + tracking |
 | [armelhbobdad/bmad-module-skill-forge](https://github.com/armelhbobdad/bmad-module-skill-forge) | beta | Convert repos/docs into skills |
