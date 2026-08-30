@@ -27,15 +27,22 @@ FrankX free packs are listed last under [Maintained in this repo](#maintained-in
 | [awesome-hermes-agents](https://github.com/frankxai/awesome-hermes-agents) | Agents, UIs, memory, deploy, multi-agent, operator docs |
 | **This repo** | Skills / plugins / skill factories (web-wide) |
 
-Also see these independent peers:
+**Start here:** pick about five named skills. Do not install a 1,000-skill catalog.
 
-- [0xNyk/awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) — Hermes-specific directory of skills, plugins, memory providers, and tools.
-- [SamurAIGPT/awesome-hermes-agent](https://github.com/SamurAIGPT/awesome-hermes-agent) — hand-picked Hermes resources with maturity tags.
-- [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) — cross-harness directory, especially useful for official vendor skill discovery.
-- [ZeroPointRepo/awesome-hermes-skills](https://github.com/ZeroPointRepo/awesome-hermes-skills) — Hermes-focused community catalog; verify each package before installation.
+| Pack | Job | Pulse 2026-08-30 |
+| --- | --- | --- |
+| [agentskills/agentskills](https://github.com/agentskills/agentskills) | Portable `SKILL.md` spec | Apache-2.0 · `reviewed` |
+| [anthropics/skills](https://github.com/anthropics/skills) | Official examples — install **named** skills | `reviewed` |
+| [obra/superpowers](https://github.com/obra/superpowers) | TDD, debug, review, shipping | MIT · `reviewed` |
+| [garrytan/gstack](https://github.com/garrytan/gstack) | Product, design, eng, QA, browser | MIT · `reviewed` |
+| [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | Scan a skill before it runs | Apache-2.0 · `reviewed` |
+
+Full table and domain map: [`docs/EARNED-SKILLS.md`](./docs/EARNED-SKILLS.md) · safety: [`docs/QUALITY-AND-SAFETY.md`](./docs/QUALITY-AND-SAFETY.md)
+
+Directories (browse, do not bulk-install): [0xNyk](https://github.com/0xNyk/awesome-hermes-agent) · [SamurAIGPT](https://github.com/SamurAIGPT/awesome-hermes-agent) · [VoltAgent](https://github.com/VoltAgent/awesome-agent-skills) · [ZeroPointRepo](https://github.com/ZeroPointRepo/awesome-hermes-skills)
 
 Maturity labels: **production** · **beta** · **experimental**  
-Review states: `reviewed` · `watch` · `unverified` · `unsafe` — see [quality & safety](./docs/QUALITY-AND-SAFETY.md)  
+Review states: `reviewed` · `watch` · `unverified` · `unsafe`  
 Research pulse: **2026-08-30**
 
 ---
@@ -63,9 +70,9 @@ Research pulse: **2026-08-30**
 
 ---
 
-## Earned skills (start here)
+## Earned skills (expanded)
 
-Operators who get leverage from skills run **about 5–7 named workflows**, not 500 unread files. Full table: [`docs/EARNED-SKILLS.md`](./docs/EARNED-SKILLS.md).
+The compact table is at the top of this README. Full rationale: [`docs/EARNED-SKILLS.md`](./docs/EARNED-SKILLS.md).
 
 | Pack | Job | Pulse 2026-08-30 |
 | --- | --- | --- |
