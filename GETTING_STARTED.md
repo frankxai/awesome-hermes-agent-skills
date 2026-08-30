@@ -4,8 +4,10 @@ This is a **web-first skills catalog**. Most of the value is links to other peop
 
 | Want… | Use |
 | --- | --- |
-| Browse best skills on the web | [README.md](./README.md) sections above “Maintained in this repo” |
-| Broader directories | [0xNyk/awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) · [SamurAIGPT/awesome-hermes-agent](https://github.com/SamurAIGPT/awesome-hermes-agent) |
+| Start with 5–7 earned skills | [docs/EARNED-SKILLS.md](./docs/EARNED-SKILLS.md) |
+| Safety before install | [docs/QUALITY-AND-SAFETY.md](./docs/QUALITY-AND-SAFETY.md) + [NVIDIA SkillSpector](https://github.com/NVIDIA/SkillSpector) |
+| Browse the web-first catalog | [README.md](./README.md) sections above “Maintained in this repo” |
+| Broader directories (do not bulk-install) | [0xNyk/awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) · [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) |
 | Agents / UIs / deploy | [awesome-hermes-agents](https://github.com/frankxai/awesome-hermes-agents) |
 | Official skill authoring | [Creating skills](https://hermes-agent.nousresearch.com/docs/developer-guide/creating-skills) |
 
@@ -20,11 +22,14 @@ hermes doctor
 
 ## 2. Install a skill from the web (preferred path)
 
-Pick something high-signal from the README, e.g.:
+Pick **one named skill**, not a 1,000-skill catalog. Start from [docs/EARNED-SKILLS.md](./docs/EARNED-SKILLS.md), e.g.:
 
-- [wondelai/skills](https://github.com/wondelai/skills)
-- [Romanescu11/hermes-skill-factory](https://github.com/Romanescu11/hermes-skill-factory)
-- [tlehman/litprog-skill](https://github.com/tlehman/litprog-skill)
+- [anthropics/skills](https://github.com/anthropics/skills) — install a **named** official skill
+- [obra/superpowers](https://github.com/obra/superpowers)
+- [garrytan/gstack](https://github.com/garrytan/gstack)
+- [wondelai/skills](https://github.com/wondelai/skills) if you need a Hermes-native library
+
+Read the `SKILL.md` and scan with SkillSpector before it touches a business profile.
 
 Follow **that repo's** install instructions. Patterns you will see:
 

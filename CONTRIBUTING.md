@@ -1,20 +1,34 @@
-# Contributing Standards
+# Contributing
 
-We welcome contributions that align with our core thesis of **verifiable, world-healing, and rigorously-tested agent intelligence**.
+This is a **web-first** awesome list of other people's skills. FrankX packs belong last, labeled optional.
 
-## The Golden Rules
+## Inclusion bar
 
-1. **No Hallucinated Tooling**: If you submit an agent skill, prompt, or tool, it must be verified to work against a real API or framework.
-2. **Safety First**: Any capability that interfaces with the physical world, live capital, or critical infrastructure must include strict human-in-the-loop approval gates.
-3. **High Signal, Low Noise**: We prefer deeply curated, opinionated lists over exhaustive link dumps. If you add a repository, explain *why* it is the best-in-class choice for that specific layer of the agent OS.
-4. **Formatting**: Ensure your Markdown is clean. If adding to a list, use the existing `<details>` structure to preserve the scannability of the README.
+A new entry needs all of:
 
-## How to Submit
+1. A primary URL (GitHub preferred) with a real `SKILL.md` or documented install path.
+2. One sentence of **distinct** value (not “awesome AI skill”).
+3. License posture (SPDX or “read LICENSE”).
+4. A review state: `reviewed`, `watch`, `unverified`, or `unsafe`.
+5. A safety note if the skill can spend, post, delete, or exfiltrate.
 
-1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature/amazing-new-skill`).
-3. Commit your changes (`git commit -m 'feat: Add incredible new skill'`).
-4. Push to the branch (`git push origin feature/amazing-new-skill`).
-5. Open a Pull Request.
+Do **not** submit:
 
-Your PR will be reviewed against our strict quality gates. We expect a high standard of engineering and documentation. Thank you for helping build the intelligence layer.
+- Affiliate funnels, Gumroad CTAs, or “53 skills free if you RT”
+- Unsigned ZIP / S3 skill blobs
+- Wallet / broadcast-tx packs without a dry-run and human spend gate
+- Duplicate canonical URLs
+- Invented projects
+- Bulk dumps (“add these 400 skills”)
+
+## Earned-skill rule
+
+Prefer packs operators actually run (one named job, readable source, recent maintenance). See [docs/EARNED-SKILLS.md](./docs/EARNED-SKILLS.md) and [docs/QUALITY-AND-SAFETY.md](./docs/QUALITY-AND-SAFETY.md).
+
+## How to submit
+
+1. Fork and branch from `main`.
+2. Add the row next to similar entries. Keep third-party work above FrankX packs.
+3. Open a PR with the primary URL, why it belongs, license, and review state.
+
+Agent / UI / deploy entries belong in [awesome-hermes-agents](https://github.com/frankxai/awesome-hermes-agents).
