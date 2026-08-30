@@ -62,8 +62,7 @@ Research pulse: **2026-08-30**
 - [Related tools (skills-adjacent)](#related-tools-skills-adjacent)
 - [August 2026 research additions](#august-2026-research-additions)
 - [Directories, not installs](#directories-not-installs)
-- [6-Pillar curation lens](#6-pillar-curation-lens)
-- [Explore the Full FrankX Awesome Ecosystem (17 lists) (optional)](#explore-the-full-frankx-awesome-ecosystem-17-lists-optional)
+- [Explore the Full FrankX Awesome Ecosystem (optional)](#explore-the-full-frankx-awesome-ecosystem-optional)
 - [Maintained in this repo (optional)](#maintained-in-this-repo-optional)
 - [Skill Portfolio OS](#skill-portfolio-os)
 - [Contributing](#contributing)
@@ -288,36 +287,7 @@ Use these to **find** primary sources. Do not copy the whole tree into a live ag
 
 ---
 
-## 6-Pillar curation lens
-
-This lens describes how we evaluate an operator skill after web-first evidence, repository ownership, license posture, and install path—not instead of them.
-
-```mermaid
-mindmap
-  root((Hermes skill curation))
-    Strategy
-      operator outcome
-      scope and fit
-    Governance
-      provenance
-      license review
-    Talent
-      human-agent collaboration
-      reusable practice
-    Technology
-      SKILL.md packages
-      MCP and harness compatibility
-    Data
-      source-backed research pulses
-      update evidence
-    Ethics
-      least privilege
-      transparent limitations
-```
-
----
-
-## Explore the Full FrankX Awesome Ecosystem (17 lists) (optional)
+## Explore the Full FrankX Awesome Ecosystem (optional)
 
 These companion lists are optional follow-on reading—not a substitute for the independent catalog above.
 
