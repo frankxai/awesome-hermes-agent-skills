@@ -75,7 +75,7 @@ Operators who get leverage from skills run **about 5–7 named workflows**, not 
 | [garrytan/gstack](https://github.com/garrytan/gstack) | Product, design, eng, QA, browser loops | MIT · ~130k★ · `reviewed` |
 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Production engineering skills | MIT · ~91k★ · `reviewed` |
 | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | Scan a skill before it can run | Apache-2.0 · ~15k★ · `reviewed` |
-| [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | Plans that survive compaction | ~26k★ · `reviewed` |
+| [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | Plans that survive compaction | MIT · ~26k★ · `reviewed` |
 
 FrankX free packs (`todo-discipline`, `coding-agents-superpack`) are listed **last**.
 

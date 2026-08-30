@@ -14,9 +14,9 @@ Review state: `reviewed` against public GitHub README + license on **2026-08-30*
 | [garrytan/gstack](https://github.com/garrytan/gstack) | CEO/design/eng/QA/browser workflows | MIT · ~130k★ | Product + design + verification loops in one opinionated CLI |
 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Production engineering skills | MIT · ~91k★ | Tight, named jobs for coding agents |
 | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | Scan skills for injection, exfil, supply-chain | Apache-2.0 · ~15k★ | Treat install like installing software |
-| [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | Crash-proof plans across compaction | inspect README · ~26k★ | Long-running work that survives `/clear` |
+| [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | Crash-proof plans across compaction | MIT · ~26k★ | Long-running work that survives `/clear` |
 
-Optional seventh if you already have the core: [mattpocock/skills](https://github.com/mattpocock/skills) (MIT) for small composable TypeScript/engineering skills.
+If you already have the core seven, add [mattpocock/skills](https://github.com/mattpocock/skills) (MIT) for small composable TypeScript/engineering skills — do not treat it as a required eighth.
 
 ## FrankX free packs (optional, last)
 
@@ -36,7 +36,7 @@ Each spoke should stay useful if every `frankxai/*` link is removed.
 | Coding / agent OS | [awesome-agent-operating-systems](https://github.com/frankxai/awesome-agent-operating-systems) | Superpowers, gstack, Anthropic skills, Hermes docs |
 | Design / UI | [awesome-design-agent-skills](https://github.com/frankxai/awesome-design-agent-skills) | [bergside/awesome-design-skills](https://github.com/bergside/awesome-design-skills), [nexu-io/open-design](https://github.com/nexu-io/open-design), Anthropic frontend/canvas skills |
 | Motion / video | [awesome-motion-design-agent-skills](https://github.com/frankxai/awesome-motion-design-agent-skills) | [remotion-dev/skills](https://github.com/remotion-dev/skills), [Orkas-AI/Orkas-VideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) |
-| Animation | [awesome-animation-agent-skills](https://github.com/frankxai/awesome-animation-agent-skills) | Blender, Remotion, Motion |
+| Animation | [awesome-motion-design-agent-skills](https://github.com/frankxai/awesome-motion-design-agent-skills) | Blender, Remotion, Motion |
 | Game | [awesome-gamedev-agent-skills](https://github.com/frankxai/awesome-gamedev-agent-skills) | Upstream [gamedev-skills/awesome-gamedev-agent-skills](https://github.com/gamedev-skills/awesome-gamedev-agent-skills) — **router + one engine**, not all 67 |
 | Music | [awesome-music-agent-skills](https://github.com/frankxai/awesome-music-agent-skills) | Audiocraft, librosa, Remotion for canvas |
 | Payments | [awesome-payment-agent-skills](https://github.com/frankxai/awesome-payment-agent-skills) | AP2, x402, Stripe MCP — **mandate before settle** |
