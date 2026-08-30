@@ -130,7 +130,7 @@ Prefer the project's own README for exact install (`hermes skills install …`, 
 | Project | Maturity | Why |
 | --- | --- | --- |
 | [agentskills.io](https://agentskills.io) | production | Open skill standard used by Hermes + many harnesses |
-| [wondelai/skills](https://github.com/wondelai/skills) | production | Large multi-harness skills library (~1.6k★) — great first install |
+| [wondelai/skills](https://github.com/wondelai/skills) | production | Large multi-harness skills library (~1.6k★) — browse, install **named** skills |
 | [0xNyk/awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) | production | Independent directory of skills/plugins/tools |
 | [SamurAIGPT/awesome-hermes-agent](https://github.com/SamurAIGPT/awesome-hermes-agent) | production | Hand-picked list with maturity tags |
 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) skills docs | production | Built-in skill system + curator loop |
