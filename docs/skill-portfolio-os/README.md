@@ -38,4 +38,4 @@ Scale, maintain, package, monetize, and self-improve Hermes/Claude skill fleets 
 | [awesome-hermes-agent-skills](https://github.com/frankxai/awesome-hermes-agent-skills) | This OS + free Hermes packs |
 | [claude-skills-library](https://github.com/frankxai/claude-skills-library) | Claude free-skills/ |
 | [agentic-creator-os](https://github.com/frankxai/agentic-creator-os) | Open-core Creator OS |
-| [FrankX](https://github.com/frankxai/FrankX) (private) | CoE kit SKU, private strategy |
+| FrankX CoE kit (private, not a public GitHub URL) | CoE kit SKU, private strategy |
