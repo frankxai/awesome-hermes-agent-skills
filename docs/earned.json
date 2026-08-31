@@ -1,0 +1,86 @@
+{
+  "list": "https://github.com/frankxai/awesome-hermes-agent-skills",
+  "pulse": "2026-08-30",
+  "doctrine": "Install 5-7 named workflows. Do not bulk-install a directory.",
+  "safety": {
+    "scanner": "https://github.com/NVIDIA/SkillSpector",
+    "scan": "skillspector scan <repo-or-path> --no-llm",
+    "gate": "https://github.com/frankxai/awesome-hermes-agent-skills/blob/main/docs/QUALITY-AND-SAFETY.md",
+    "contract": "https://github.com/frankxai/awesome-hermes-agent-skills/blob/main/docs/LIST-CONTRACT.md"
+  },
+  "earned": [
+    {
+      "id": "agentskills",
+      "url": "https://github.com/agentskills/agentskills",
+      "job": "Portable SKILL.md spec shared by Hermes, Claude Code, Codex, Cursor, Gemini CLI",
+      "license": "Apache-2.0",
+      "state": "reviewed",
+      "install": "Read the spec. Not a skill dump."
+    },
+    {
+      "id": "anthropic-skills",
+      "url": "https://github.com/anthropics/skills",
+      "job": "Official named examples (xlsx, docx, pdf, skill-creator, frontend-design)",
+      "license": "inspect LICENSE",
+      "state": "reviewed",
+      "install": "Install one named skill from that repo. Do not copy the whole tree."
+    },
+    {
+      "id": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "job": "TDD, debug, review, shipping methodology",
+      "license": "MIT",
+      "state": "reviewed",
+      "install": "Follow that repo README. Methodology, not a second OS."
+    },
+    {
+      "id": "gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "job": "Product, design, eng, QA, and browser loops",
+      "license": "MIT",
+      "state": "reviewed",
+      "install": "Follow that repo README."
+    },
+    {
+      "id": "addyosmani-agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "job": "Production engineering skills with one named job each",
+      "license": "MIT",
+      "state": "reviewed",
+      "install": "Pick files that match the job. Do not bulk-install."
+    },
+    {
+      "id": "skillspector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "job": "Scan a skill for injection, exfil, and supply-chain before it runs",
+      "license": "Apache-2.0",
+      "state": "reviewed",
+      "install": "uv tool install git+https://github.com/NVIDIA/skillspector.git"
+    },
+    {
+      "id": "planning-with-files",
+      "url": "https://github.com/OthmanAdi/planning-with-files",
+      "job": "Plans that survive compaction and /clear",
+      "license": "MIT",
+      "state": "reviewed",
+      "install": "Follow that repo README."
+    }
+  ],
+  "optional_last": [
+    {
+      "id": "todo-discipline",
+      "url": "https://github.com/frankxai/awesome-hermes-agent-skills/tree/main/skills/todo-discipline",
+      "job": "Task list must match reality before done",
+      "license": "MIT",
+      "state": "reviewed",
+      "install": "Copy skills/todo-discipline into the Hermes skills directory"
+    }
+  ],
+  "directories_not_installs": [
+    "https://github.com/0xNyk/awesome-hermes-agent",
+    "https://github.com/VoltAgent/awesome-agent-skills",
+    "https://github.com/wondelai/skills",
+    "https://github.com/ComposioHQ/awesome-claude-skills",
+    "https://github.com/sickn33/agentic-awesome-skills"
+  ]
+}

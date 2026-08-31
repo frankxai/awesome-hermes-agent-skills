@@ -23,6 +23,7 @@ jobs:
         uses: lycheeverse/lychee-action@v2.9.0
         with:
           args: >-
+            --config lychee.toml
             --accept=200,204,429
             --timeout=20
             --max-retries=3
@@ -45,6 +46,7 @@ jobs:
         uses: lycheeverse/lychee-action@v2.9.0
         with:
           args: >-
+            --config lychee.toml
             --accept=200,204,429
             --timeout=20
             --max-retries=3

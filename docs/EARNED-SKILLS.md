@@ -2,6 +2,8 @@
 
 Start here. These are **structured workflows** people actually run — not a 500-skill dump.
 
+Same rows as JSON for agents: [`earned.json`](./earned.json). Always-do: [`LIST-CONTRACT.md`](./LIST-CONTRACT.md).
+
 Review state: `reviewed` against public GitHub README + license on **2026-08-30**. Not sandbox-`tested` unless noted.
 
 ## Operator core (install 5–7, not 500)

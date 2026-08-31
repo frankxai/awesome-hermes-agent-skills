@@ -1,0 +1,9 @@
+# Shared lychee policy for this list. CI workflow passes extra args.
+accept = [200, 204, 429]
+max_retries = 3
+timeout = 20
+include_mail = false
+
+exclude = [
+  "https://github.com/frankxai/awesome-jarvis",
+]

@@ -23,7 +23,9 @@ Do **not** submit:
 
 ## Earned-skill rule
 
-Prefer packs operators actually run (one named job, readable source, recent maintenance). See [docs/EARNED-SKILLS.md](./docs/EARNED-SKILLS.md) and [docs/QUALITY-AND-SAFETY.md](./docs/QUALITY-AND-SAFETY.md).
+Prefer packs operators actually run (one named job, readable source, recent maintenance). See [docs/EARNED-SKILLS.md](./docs/EARNED-SKILLS.md), [docs/QUALITY-AND-SAFETY.md](./docs/QUALITY-AND-SAFETY.md), and the always-do [docs/LIST-CONTRACT.md](./docs/LIST-CONTRACT.md).
+
+Changing the core 5–7 start set requires a matching edit to [docs/earned.json](./docs/earned.json) in the same PR.
 
 ## How to submit
 
