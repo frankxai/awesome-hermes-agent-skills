@@ -4,7 +4,7 @@ Start here. These are **structured workflows** people actually run — not a 500
 
 Same rows as JSON for agents: [`earned.json`](./earned.json). Always-do: [`LIST-CONTRACT.md`](./LIST-CONTRACT.md).
 
-Review state: `reviewed` against public GitHub README + license on **2026-08-30**. Not sandbox-`tested` unless noted.
+Review state: `reviewed` against public GitHub README + license on **2026-08-30**. That is a curator snapshot, not a second-reader SKILL.md audit and not sandbox-`tested` unless `validation/evidence/` exists.
 
 ## Operator core (install 5–7, not 500)
 
