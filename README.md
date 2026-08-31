@@ -5,7 +5,7 @@
 <h1 align="center">Awesome Hermes Agent Skills</h1>
 
 <p align="center">
-  <strong>A curated list of the best Hermes-compatible skills, plugins, and skill factories from across the web — plus a few free open-core packs we maintain.</strong>
+  <strong>A safety-gated index of Hermes-compatible skills. Five named jobs first. Not a 1,000-skill dump.</strong>
 </p>
 
 <p align="center">
@@ -20,6 +20,8 @@
 > Official skill docs: [Skills](https://hermes-agent.nousresearch.com/docs/user-guide/features/skills) · [Creating skills](https://hermes-agent.nousresearch.com/docs/developer-guide/creating-skills) · [agentskills.io](https://agentskills.io)
 
 **This is an awesome list of the web**, not a marketing page for our packs.  
+[0xNyk](https://github.com/0xNyk/awesome-hermes-agent) and [VoltAgent](https://github.com/VoltAgent/awesome-agent-skills) are **directories** — start there to browse, not to install. This list is the **start set**: five named workflows, then [SkillSpector](https://github.com/NVIDIA/SkillSpector), then one install. Ninety seconds: [GETTING_STARTED.md](./GETTING_STARTED.md). Agents: [`docs/earned.json`](./docs/earned.json). Always-do: [`docs/LIST-CONTRACT.md`](./docs/LIST-CONTRACT.md).
+
 FrankX free packs are listed last under [Maintained in this repo](#maintained-in-this-repo-optional).
 
 | Companion | Role |
@@ -37,7 +39,7 @@ FrankX free packs are listed last under [Maintained in this repo](#maintained-in
 | [garrytan/gstack](https://github.com/garrytan/gstack) | Product, design, eng, QA, browser | MIT · `reviewed` |
 | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | Scan a skill before it runs | Apache-2.0 · `reviewed` |
 
-Full table and domain map: [`docs/EARNED-SKILLS.md`](./docs/EARNED-SKILLS.md) · safety: [`docs/QUALITY-AND-SAFETY.md`](./docs/QUALITY-AND-SAFETY.md)
+Full table and domain map: [`docs/EARNED-SKILLS.md`](./docs/EARNED-SKILLS.md) · safety: [`docs/QUALITY-AND-SAFETY.md`](./docs/QUALITY-AND-SAFETY.md) · same rows as JSON: [`docs/earned.json`](./docs/earned.json)
 
 Directories (browse, do not bulk-install): [0xNyk](https://github.com/0xNyk/awesome-hermes-agent) · [SamurAIGPT](https://github.com/SamurAIGPT/awesome-hermes-agent) · [VoltAgent](https://github.com/VoltAgent/awesome-agent-skills) · [ZeroPointRepo](https://github.com/ZeroPointRepo/awesome-hermes-skills)
 

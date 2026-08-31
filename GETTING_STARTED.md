@@ -1,64 +1,70 @@
-# Getting Started — Hermes Agent Skills
+# Getting started — ninety seconds to one named skill
 
-This is a **web-first skills catalog**. Most of the value is links to other people's skill packs.
+This is a **web-first catalog**. The value is other people's packs. Do not start at a 1,000-skill library.
 
-| Want… | Use |
-| --- | --- |
-| Start with 5–7 earned skills | [docs/EARNED-SKILLS.md](./docs/EARNED-SKILLS.md) |
-| Safety before install | [docs/QUALITY-AND-SAFETY.md](./docs/QUALITY-AND-SAFETY.md) + [NVIDIA SkillSpector](https://github.com/NVIDIA/SkillSpector) |
-| Browse the web-first catalog | [README.md](./README.md) sections above “Maintained in this repo” |
-| Broader directories (do not bulk-install) | [0xNyk/awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) · [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) |
-| Agents / UIs / deploy | [awesome-hermes-agents](https://github.com/frankxai/awesome-hermes-agents) |
-| Official skill authoring | [Creating skills](https://hermes-agent.nousresearch.com/docs/developer-guide/creating-skills) |
+Machine-readable start set: [`docs/earned.json`](./docs/earned.json)  
+Always-do contract: [`docs/LIST-CONTRACT.md`](./docs/LIST-CONTRACT.md)
 
-## 1. Install Hermes
+## 1. Hermes runs
 
-[Official installation](https://hermes-agent.nousresearch.com/docs/getting-started/installation)
+[Official install](https://hermes-agent.nousresearch.com/docs/getting-started/installation)
 
 ```bash
 hermes version
 hermes doctor
 ```
 
-## 2. Install a skill from the web (preferred path)
+## 2. Scanner before copy
 
-Pick **one named skill**, not a 1,000-skill catalog. Start from [docs/EARNED-SKILLS.md](./docs/EARNED-SKILLS.md), e.g.:
-
-- [anthropics/skills](https://github.com/anthropics/skills) — install a **named** official skill
-- [obra/superpowers](https://github.com/obra/superpowers)
-- [garrytan/gstack](https://github.com/garrytan/gstack)
-- [wondelai/skills](https://github.com/wondelai/skills) if you need a Hermes-native library
-
-Read the `SKILL.md` and scan with SkillSpector before it touches a business profile.
-
-Follow **that repo's** install instructions. Patterns you will see:
+NVIDIA's own research: **26.1%** of public skills have a vulnerability; **5.2%** look malicious. Scan first.
 
 ```bash
-# clone + copy SKILL.md tree into Hermes skills dir
-# or: hermes skills install owner/repo/...
-# or: npx skills add owner/repo -g
+uv tool install git+https://github.com/NVIDIA/skillspector.git
+skillspector scan https://github.com/obra/superpowers --no-llm
 ```
 
-## 3. Optional: free packs in *this* repo
+`--no-llm` is static-only (no file contents leave the machine). A clean score is a **signal**, not a warranty. `DO_NOT_INSTALL` means stop.
+
+## 3. Install **one** named pack
+
+Pick from [`docs/EARNED-SKILLS.md`](./docs/EARNED-SKILLS.md), not from a directory:
+
+| Job | Pack |
+| --- | --- |
+| Methodology | [obra/superpowers](https://github.com/obra/superpowers) |
+| Product / design / QA loops | [garrytan/gstack](https://github.com/garrytan/gstack) |
+| Official named examples | [anthropics/skills](https://github.com/anthropics/skills) (one skill, not the tree) |
+| Scan other skills | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) |
+| Crash-proof plans | [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) |
+
+Follow **that repo's** README (`hermes skills install …`, `npx skills add owner/repo --skill name`, or copy one `SKILL.md` folder).
+
+Windows skills dir is often `%LOCALAPPDATA%\hermes\skills\`. macOS/Linux: `~/.hermes/skills/`.
+
+## 4. Directories (browse later)
+
+[0xNyk/awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) · [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) · [wondelai/skills](https://github.com/wondelai/skills)
+
+These are discovery surfaces. Do not `npx skills add` the whole tree into a business profile.
+
+## 5. Optional packs in *this* repo
 
 ```bash
 git clone https://github.com/frankxai/awesome-hermes-agent-skills.git
-cp -R awesome-hermes-agent-skills/skills/todo-discipline ~/.hermes/skills/
+# copy one folder:
+#   skills/todo-discipline
+# into the Hermes skills directory
 ```
 
-These are small open-core packs — not a replacement for the ecosystem catalog.
+Small, secret-free, listed last. Not a replacement for the catalog.
 
-## 4. Author your own
+## 6. Author your own
 
 Official: [Creating skills](https://hermes-agent.nousresearch.com/docs/developer-guide/creating-skills)
-
-Minimum:
 
 ```text
 skills/my-skill/
   SKILL.md
 ```
 
-## 5. Portfolio ops (maintainers)
-
-[`docs/skill-portfolio-os/`](docs/skill-portfolio-os/) — free vs gated vs product classification for packs we publish.
+Then scan it with SkillSpector before any shared profile.
