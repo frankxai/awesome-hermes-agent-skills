@@ -6,7 +6,7 @@ Review state used in this estate:
 
 | State | Meaning | Allowed claim |
 | --- | --- | --- |
-| `reviewed` | Source README, license, and `SKILL.md` (or equivalent) were read | Describe purpose |
+| `reviewed` | Public README + license + listing URL checked on the pulse date. **Not** an independent SKILL.md audit unless `validation/evidence/` exists | Describe purpose |
 | `watch` | Interesting; not a default install | “Emerging” |
 | `unverified` | Seen on GitHub/search/X | Discovery only |
 | `tested` | Named version run in a sandbox with stored evidence | “Tested on …” |

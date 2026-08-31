@@ -41,7 +41,7 @@ FrankX free packs are listed last under [Maintained in this repo](#maintained-in
 
 Full table and domain map: [`docs/EARNED-SKILLS.md`](./docs/EARNED-SKILLS.md) · safety: [`docs/QUALITY-AND-SAFETY.md`](./docs/QUALITY-AND-SAFETY.md) · same rows as JSON: [`docs/earned.json`](./docs/earned.json)
 
-Directories (browse, do not bulk-install): [0xNyk](https://github.com/0xNyk/awesome-hermes-agent) · [SamurAIGPT](https://github.com/SamurAIGPT/awesome-hermes-agent) · [VoltAgent](https://github.com/VoltAgent/awesome-agent-skills) · [ZeroPointRepo](https://github.com/ZeroPointRepo/awesome-hermes-skills)
+Directories (browse, do not bulk-install): [0xNyk](https://github.com/0xNyk/awesome-hermes-agent) · [VoltAgent](https://github.com/VoltAgent/awesome-agent-skills) · [ZeroPointRepo](https://github.com/ZeroPointRepo/awesome-hermes-skills)
 
 Maturity labels: **production** · **beta** · **experimental**  
 Review states: `reviewed` · `watch` · `unverified` · `unsafe`  
@@ -133,8 +133,7 @@ Prefer the project's own README for exact install (`hermes skills install …`, 
 | --- | --- | --- |
 | [agentskills.io](https://agentskills.io) | production | Open skill standard used by Hermes + many harnesses |
 | [wondelai/skills](https://github.com/wondelai/skills) | production | Large multi-harness skills library (~1.6k★) — browse, install **named** skills |
-| [0xNyk/awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) | production | Independent directory of skills/plugins/tools |
-| [SamurAIGPT/awesome-hermes-agent](https://github.com/SamurAIGPT/awesome-hermes-agent) | production | Hand-picked list with maturity tags |
+| [0xNyk/awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) | production | Independent directory — browse, do not bulk-install |
 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) skills docs | production | Built-in skill system + curator loop |
 
 ---
@@ -346,7 +345,7 @@ Especially: [CLASSIFICATION.md](./docs/skill-portfolio-os/CLASSIFICATION.md) · 
 
 <p align="center">
   <sub>Curated by <a href="https://github.com/frankxai">frankxai</a>
-  · Ecosystem also: <a href="https://github.com/0xNyk/awesome-hermes-agent">0xNyk</a> · <a href="https://github.com/SamurAIGPT/awesome-hermes-agent">SamurAIGPT</a>
+  · Ecosystem also: <a href="https://github.com/0xNyk/awesome-hermes-agent">0xNyk</a>
   · Agents companion: <a href="https://github.com/frankxai/awesome-hermes-agents">awesome-hermes-agents</a>
   · Pulse: <strong>2026-08-30</strong></sub>
 </p>
