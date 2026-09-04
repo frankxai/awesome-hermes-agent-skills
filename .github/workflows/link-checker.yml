@@ -27,7 +27,6 @@ jobs:
             --accept=200,204,429
             --timeout=20
             --max-retries=3
-            --exclude-mail
             --exclude https://github.com/frankxai/awesome-jarvis
             ./**/*.md
           fail: true
@@ -50,7 +49,6 @@ jobs:
             --accept=200,204,429
             --timeout=20
             --max-retries=3
-            --exclude-mail
             --exclude https://github.com/frankxai/awesome-jarvis
             ./**/*.md
           fail: false
