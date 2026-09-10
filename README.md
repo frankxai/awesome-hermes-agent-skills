@@ -219,6 +219,7 @@ Spoke: [awesome-motion-design-agent-skills](https://github.com/frankxai/awesome-
 | [longsizhuo/openInvest](https://github.com/longsizhuo/openInvest) | Investment research (not advice) |
 | [avansaber/erpclaw](https://github.com/avansaber/erpclaw) | ERP + agent action layer |
 | [wordbricks skills / onequery-cli](https://github.com/wordbricks/skills/tree/main/skills/onequery-cli) | Governed read-only SQL for agents |
+| [contracko/contracko-skills — `contracko-review`](https://github.com/contracko/contracko-skills/tree/69af90ded5a516a56f471b3e3315a24ee806d041/skills/contracko-review) | Contract portfolio review for notice/end dates, risk audits, comparisons, and priorities; MIT · beta · unverified. User-authorized remote MCP/OAuth sends contract content to the host AI; review jobs need `contract:read`, while reminders need `contract:write` and human confirmation. |
 
 ---
 
