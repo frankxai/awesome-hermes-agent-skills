@@ -1,7 +1,7 @@
 ---
 name: todo-discipline
 description: "Use when starting any complex task (3+ steps) or before declaring work complete. Enforces todo/task state to match reality — merge updates + read verification. Prevents false completion."
-version: 1.0.0
+version: 1.0.1
 author: Frank Riemer / GenCreator
 license: MIT
 platforms: [linux, macos, windows]
@@ -41,6 +41,7 @@ Treat the **read result** as ground truth if merge responses echo stale state (c
 - Only one item `in_progress` at a time  
 - Never pass an empty todos array on merge (can clear the list)  
 - Supply full id + content + **new** status for items you change  
+- If task tools are not exposed, use the platform’s tool discovery before declaring state unavailable; never claim a merge/read that did not run.
 
 ## Verification checklist
 
