@@ -9,4 +9,5 @@
 - [ ] Advance promote queue (≥1 free pack in progress)
 - [ ] Update TIER-REGISTRY if tiers changed
 - [ ] Verify registry candidate/stub paths in the active profile before reporting their installed state; only exact evidence can confirm a redirect/absorb, while missing or full legacy pages remain T0/T4 migration work
-- [ ] No broad home/C:\ searches ran on Frank host this week
+- [ ] For a present legacy page, record its SHA-256 and canonical comparator; exact-path inspection alone determines redirect versus full-copy status
+- [ ] No broad user-profile or drive-root recursive searches ran on Frank host this week
