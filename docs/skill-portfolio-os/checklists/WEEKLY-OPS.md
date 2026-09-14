@@ -1,6 +1,6 @@
 # Weekly Skill Ops Checklist
 
-- [ ] Run `hermes curator status` and `hermes curator run --dry-run` with the active profile environment; record the profile scope
+- [ ] Explicitly set `$HERMES_HOME` to the target profile, echo it, then run `hermes curator status` and `hermes curator run --dry-run`; record the profile scope and do not trust an inherited scheduled-job environment
 - [ ] Pins present (path-safety, todo-discipline, coding-agents, hermes-agent, skill-portfolio-ops)
 - [ ] Review curator-managed agent-created skills; archive only dry-run-confirmed eligible items
 - [ ] Diff official leaves if Hermes updated; re-apply overlays
