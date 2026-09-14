@@ -21,6 +21,7 @@
 | P0 | coding-agents **sanitized** Superpack | awesome-hermes-agent-skills | **shipped** 2026-07-15 |
 | P0 | todo-discipline generic | claude-skills-library + awesome-hermes-agent-skills | **shipped** (AHAS main; CSL PR #21) |
 | P1 | Model Council reference only | starlight-swarm / ACOS | queued |
+| P1 | Provider-neutral AI usage telemetry foundation | awesome-hermes-agent-skills | **in progress** — sanitized T1 reference added 2026-09-14; implementation gated on current parser, license, and redaction evidence |
 | P1 | hermes-agent-skill-authoring (already official-aligned) | keep / mirror | ok |
 | P2 | process suite (plan, TDD, debug, spike) | ACOS | partial upstream |
 | P2 | architecture-diagram + excalidraw packs | design awesome | later |

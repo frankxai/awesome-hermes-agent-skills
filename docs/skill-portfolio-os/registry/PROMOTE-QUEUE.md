@@ -3,7 +3,7 @@
 ## Ready to sanitize & ship (free)
 
 1. **Windows project-scoped search note** — T1 generic one-page note (not an incident skill); sanitizer review and public discoverability links were completed on 2026-09-14 at `docs/skill-portfolio-os/packs/WINDOWS-PROJECT-SCOPED-SEARCH.md`. **Next:** package it as a standalone free skill only if its portable note format no longer meets the distribution need; otherwise retain it as the linked public note.
-2. **Provider-neutral AI usage telemetry foundation** — T1 sanitized draft extracted from the re-scoped `starlight-token-tracker` candidate; verify current tool support and licenses, and remove brand, subscription, and local-wrapper assumptions before public promotion.
+2. **Provider-neutral AI usage telemetry foundation** — **in progress**: sanitized T1 foundation added at [`packs/AI-USAGE-TELEMETRY-FOUNDATION.md`](../packs/AI-USAGE-TELEMETRY-FOUNDATION.md). Upstream review on 2026-09-14 confirmed MIT licensing for tokscale and ccusage; tokscale documents Hermes support, while ccusage coverage must be verified per release before inclusion. **Next:** add a reproducible redaction fixture and explicit current-runtime support checks before packaging a standalone free skill.
 
 ## Blocked (need more work)
 
