@@ -2,7 +2,7 @@
 
 ## In progress (free)
 
-1. **Windows project-scoped search note** — T1 generic one-page note (not the Phone Link incident skill); scoped 2026-08-03 for a sanitized draft with no host, device, or personal-path detail before public promotion.
+1. **Windows project-scoped search note** — T1 generic one-page note (not an incident skill); sanitized draft added at `docs/skill-portfolio-os/packs/WINDOWS-PROJECT-SCOPED-SEARCH.md` on 2026-09-14. Next: run the sanitizer checklist and add a public discoverability link before promotion.
 2. **Provider-neutral AI usage telemetry foundation** — T1 sanitized draft extracted from the re-scoped `starlight-token-tracker` candidate; verify current tool support and licenses, and remove brand, subscription, and local-wrapper assumptions before public promotion.
 
 ## Blocked (need more work)
