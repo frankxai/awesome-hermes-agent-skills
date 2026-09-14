@@ -8,7 +8,7 @@
 
 | Skill | Tier | Notes |
 |-------|------|-------|
-| windows-phone-link-search-safety | T0 | Host critical |
+| windows-phone-link-search-safety | T0 | Host critical; sanitized T1 project-scoped-search companion drafted 2026-09-14 |
 | todo-discipline | T0/T1 | Core free-exportable |
 | coding-agents | T4 + T1 export | Umbrella |
 | hermes-agent | Official T1 | Refreshable |
