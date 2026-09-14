@@ -5,7 +5,7 @@
 - [ ] Verify pin flags in `$HERMES_HOME/skills/.usage.json`; `curator status` may summarize pins but is not authoritative, and a missing pin summary is never compliance. Pin only eligible installed skills, and record absent or bundled exceptions as runtime remediation.
 - [ ] Review curator-managed agent-created skills; archive only a named dry-run-proposed transition (the reported candidate count is the evaluated pool, not archive eligibility).
 - [ ] Diff official leaves if Hermes updated; re-apply overlays
-- [ ] Record `hermes --version`; an available-but-unapplied update is not an update event, so do not claim an official-leaf diff or overlay rebase until the installed version changes
+- [ ] Record `hermes --version`; an available-but-unapplied update is a **deferred runtime signal**, not an update event. This weekly portfolio cron must not run `hermes update`, diff official leaves, or claim an overlay rebase until a separately approved runtime update changes the installed version
 - [ ] Absorb ≥1 learning into a skill, checklist, or reference patch
 - [ ] Advance promote queue (≥1 free pack in progress)
 - [ ] Update TIER-REGISTRY if tiers changed

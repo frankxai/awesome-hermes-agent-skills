@@ -37,6 +37,12 @@ It must not require a Starlight wrapper, brand identity, subscription details, l
 - [`junhoyeo/tokscale`](https://github.com/junhoyeo/tokscale) publishes an MIT license and currently documents Hermes Agent data support. Its optional public-submission capability is out of scope for this pattern.
 - [`ryoppippi/ccusage`](https://github.com/ryoppippi/ccusage) publishes an MIT license and documents local usage analysis. Include it in a future implementation only after verifying the exact release supports each requested runtime; this reference makes no Hermes-coverage claim for it.
 
+### Weekly promotion checkpoint — 2026-09-21
+
+**Owner:** Skill Portfolio Ops
+**Done condition / proof:** a reproducible, synthetic redaction fixture runs locally and shows that default aggregate output excludes prompt text, paths, IDs, and credentials; current upstream evidence explicitly identifies every supported runtime.
+**Decision / kill criterion:** ship a standalone T1 skill only if both proofs are present. Otherwise retain this reference as the portable artifact and close packaging work for this cycle—do not publish a collector based on inference from similarly named tools.
+
 These projects are examples, not endorsed defaults. Re-check license, release, source coverage, data handling, and package integrity at implementation time.
 
 ## Promotion gate: standalone free skill
