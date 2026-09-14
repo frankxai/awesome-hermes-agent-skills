@@ -118,3 +118,4 @@ Is the learning portable without Frank secrets?
 - frank-overlay for claude-code leaf rebase  
 - Funnel doc + weekly cron already scheduled  
 - Learning: never push FrankX branches that inherited `.asph-wip` multi-100MB patches — branch from origin/main with pathspec commits only  
+- 2026-09-14 — Weekly review: no redirect stubs appear in the public pack tree; runtime redirects remain intentional compatibility aliases. Required-pin persistence and official-leaf provenance/rebase are T0/T4 runtime follow-up, while the generic project-scoped search note remains the sole T1 promotion candidate.
