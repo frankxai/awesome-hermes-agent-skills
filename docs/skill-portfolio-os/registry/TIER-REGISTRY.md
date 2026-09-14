@@ -29,11 +29,11 @@
 
 | Skill | Action | Status |
 |-------|--------|--------|
-| mcr-multi-cli-router | Absorb into coding-agents routing section | **done** 2026-07-15 → redirect stub |
-| agy-mcr-orchestrator | Absorb into coding-agents + agy-cli | **done** → redirect stub |
-| si-starlight-intelligence | Absorb into starlight-queen | **done** → redirect stub |
-| build-in-public / daily-building-in-public | Merge one | pending |
-| ai-agent-token-tracking / starlight-token-tracker | Merge umbrella + alias | pending |
+| mcr-multi-cli-router | Re-absorb into coding-agents routing section; then replace legacy full copy with compatibility redirect | **reopened** 2026-09-14 — runtime audit found a full legacy skill, not a redirect stub |
+| agy-mcr-orchestrator | Re-absorb into coding-agents + agy-cli; then replace legacy full copy with compatibility redirect | **reopened** 2026-09-14 — runtime audit found a full legacy skill, not a redirect stub |
+| si-starlight-intelligence | Re-absorb into starlight-queen; then replace legacy full copy with compatibility redirect | **reopened** 2026-09-14 — runtime audit found a full legacy skill, not a redirect stub |
+| build-in-public / daily-building-in-public | Re-absorb `daily-building-in-public` into `build-in-public`; then replace legacy full copy with compatibility redirect | **reopened** 2026-09-14 — runtime audit found a full legacy skill, not a redirect stub |
+| ai-agent-token-tracking / starlight-token-tracker | Extract a provider-neutral usage-telemetry T1 draft; do not export the branded runtime root skill or create an alias yet | **re-scoped** 2026-09-14 — source review complete; generic draft needs current-tool and license verification |
 
 ## Gated product sources (do not free)
 

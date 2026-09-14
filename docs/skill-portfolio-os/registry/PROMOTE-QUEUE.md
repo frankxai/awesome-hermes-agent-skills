@@ -2,9 +2,8 @@
 
 ## Ready to sanitize & ship (free)
 
-1. **coding-agents Superpack** — discovery, prompting template, Model Council, comparison recipes only  
-2. **todo-discipline (generic)** — hard completion gate without private cron job names  
-3. **Windows project-scoped search note** — 1-page generic (not Phone Link incident skill)  
+1. **Windows project-scoped search note** — T1 generic one-page note (not the Phone Link incident skill); scoped 2026-08-03 for a sanitized draft with no host, device, or personal-path detail before public promotion.
+2. **Provider-neutral AI usage telemetry foundation** — T1 sanitized draft extracted from the re-scoped `starlight-token-tracker` candidate; verify current tool support and licenses, and remove brand, subscription, and local-wrapper assumptions before public promotion.
 
 ## Blocked (need more work)
 
