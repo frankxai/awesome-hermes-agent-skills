@@ -2,7 +2,7 @@
 
 ## Ready to sanitize & ship (free)
 
-1. **Windows project-scoped search note** — T1 generic one-page note (not an incident skill); sanitized draft added at `docs/skill-portfolio-os/packs/WINDOWS-PROJECT-SCOPED-SEARCH.md` on 2026-09-14. Next: run the sanitizer checklist and add a public discoverability link before promotion.
+1. **Windows project-scoped search note** — T1 generic one-page note (not an incident skill); sanitizer review and public discoverability links were completed on 2026-09-14 at `docs/skill-portfolio-os/packs/WINDOWS-PROJECT-SCOPED-SEARCH.md`. **Next:** package it as a standalone free skill only if its portable note format no longer meets the distribution need; otherwise retain it as the linked public note.
 2. **Provider-neutral AI usage telemetry foundation** — T1 sanitized draft extracted from the re-scoped `starlight-token-tracker` candidate; verify current tool support and licenses, and remove brand, subscription, and local-wrapper assumptions before public promotion.
 
 ## Blocked (need more work)
