@@ -32,7 +32,7 @@
 | mcr-multi-cli-router | Re-absorb into coding-agents routing section; then replace legacy full copy with compatibility redirect | **reopened** 2026-09-14 — runtime audit found a full legacy skill, not a redirect stub |
 | agy-mcr-orchestrator | Re-absorb into coding-agents + agy-cli; then replace legacy full copy with compatibility redirect | **reopened** 2026-09-14 — runtime audit found a full legacy skill, not a redirect stub |
 | si-starlight-intelligence | Re-absorb into starlight-queen; then replace legacy full copy with compatibility redirect | **reopened** 2026-09-14 — runtime audit found a full legacy skill, not a redirect stub |
-| build-in-public / daily-building-in-public | Keep `build-in-public` canonical; retain `daily-building-in-public` only as a compatibility redirect | **partial** 2026-09-14 — identical legacy runtime copy replaced with a compatibility redirect; verify any remaining source/pack migration before closing |
+| build-in-public / daily-building-in-public | Re-absorb into `build-in-public`; then replace the legacy page with a compatibility redirect | **reopened** 2026-09-14 — active target profile retains a divergent full legacy page (checksum differs from `build-in-public`), not a redirect stub |
 | ai-agent-token-tracking / starlight-token-tracker | Extract a provider-neutral usage-telemetry T1 draft; do not export the branded runtime root skill or create an alias yet | **re-scoped** 2026-09-14 — source review complete; generic draft needs current-tool and license verification |
 
 ## Gated product sources (do not free)
