@@ -31,6 +31,10 @@ Scale, maintain, package, monetize, and self-improve Hermes/Claude skill fleets 
 - [`skills/coding-agents-superpack`](../../skills/coding-agents-superpack/SKILL.md)  
 - [`skills/todo-discipline`](../../skills/todo-discipline/SKILL.md)  
 
+## Candidate public notes
+
+- [Windows Project-Scoped Search Note](./packs/WINDOWS-PROJECT-SCOPED-SEARCH.md) — sanitized T1 portable practice; package promotion remains in progress.
+
 ## Related remotes
 
 | Repo | Role |

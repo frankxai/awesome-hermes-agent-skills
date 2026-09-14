@@ -302,12 +302,13 @@ These companion lists are optional follow-on reading—not a substitute for the 
 
 ## Maintained in this repo (optional)
 
-Small **open-core** packs we ship for free. These are **not** “the list” — the list above is the list.
+Small **open-core** packs and portable operating notes we ship for free. These are **not** “the list” — the list above is the list.
 
-| Pack | Description | Path |
+| Pack / note | Description | Path |
 | --- | --- | --- |
 | **coding-agents-superpack** | Multi-CLI discovery, structured prompts, council handoffs (sanitized) | [`skills/coding-agents-superpack`](./skills/coding-agents-superpack/SKILL.md) |
 | **todo-discipline** | Task list must match reality before “done” | [`skills/todo-discipline`](./skills/todo-discipline/SKILL.md) |
+| **Windows project-scoped search note** | Portable project-root search practice (sanitized T1 candidate) | [`docs/skill-portfolio-os/packs/WINDOWS-PROJECT-SCOPED-SEARCH.md`](./docs/skill-portfolio-os/packs/WINDOWS-PROJECT-SCOPED-SEARCH.md) |
 
 ```bash
 git clone https://github.com/frankxai/awesome-hermes-agent-skills.git
