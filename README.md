@@ -220,6 +220,7 @@ Spoke: [awesome-motion-design-agent-skills](https://github.com/frankxai/awesome-
 | [avansaber/erpclaw](https://github.com/avansaber/erpclaw) | ERP + agent action layer |
 | [wordbricks skills / onequery-cli](https://github.com/wordbricks/skills/tree/main/skills/onequery-cli) | Governed read-only SQL for agents |
 | [contracko/contracko-skills — `contracko-review`](https://github.com/contracko/contracko-skills/tree/69af90ded5a516a56f471b3e3315a24ee806d041/skills/contracko-review) | Contract portfolio review for notice/end dates, risk audits, comparisons, and priorities; MIT · beta · unverified. Contract conclusions are not legal advice and need human legal review before action. User-authorized remote MCP/OAuth sends contract content to the host AI; review jobs need `contract:read`, while reminders need `contract:write` and human confirmation. |
+| [alapha888/agent-skills-en](https://github.com/alapha888/agent-skills-en) | Knowledge-work productivity: proofreading technical docs, conventional commit messages, meeting notes to minutes, a five-axis code review checklist, and structured deep research; MIT · beta · unverified. Instruction-only SKILL.md files — no executable code, network calls, or credential access. |
 
 ---
 
