@@ -191,6 +191,7 @@ These install on Hermes **and** often Claude Code / Cursor / OpenClaw / Codex.
 | [Sequenzy/skills](https://github.com/Sequenzy/skills) | beta | Email marketing lifecycle skills |
 | [resemble-ai/detect-skill](https://github.com/resemble-ai/detect-skill) | beta | Deepfake / media authenticity for agents |
 | [Agent QA Authoring](https://github.com/vostride/agent-qa/blob/main/skills/agent-qa-authoring/SKILL.md) | unverified | Author and validate web/mobile QA tests and suites through Agent QA MCP. Can delete definitions and start runs; review workspace permissions before use. License: [read LICENSE.md](https://github.com/vostride/agent-qa/blob/main/LICENSE.md). |
+| [yylo-dev/yylo-skills](https://github.com/yylo-dev/yylo-skills) | unverified | Eight SKILL.md packs for the YYLO controller workflow (Kanban/Ledger tasks, wiki, workflow, artifacts) that install on Claude Code / Codex / Pi. MIT. |
 
 ---
 
