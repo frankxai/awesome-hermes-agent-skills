@@ -287,6 +287,7 @@ Use these to **find** primary sources. Do not copy the whole tree into a live ag
 | [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | ~46k★ | 2,000+ catalog — curate, never bulk-install |
 | [futantan/agent-skills.md](https://github.com/futantan/agent-skills.md) | ~0.3k★ | Discovery UI |
 | [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | ~52k★ | **Quarantine** (OpenClaw-adjacent mass dump) |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | MIT · ~276k★ as of 2026-10-10 · `watch` | Browse named skills. Do not bulk-install the `full` profile. |
 
 ---
 
@@ -309,6 +310,7 @@ Small **open-core** packs we ship for free. These are **not** “the list” —
 | --- | --- | --- |
 | **coding-agents-superpack** | Multi-CLI discovery, structured prompts, council handoffs (sanitized) | [`skills/coding-agents-superpack`](./skills/coding-agents-superpack/SKILL.md) |
 | **todo-discipline** | Task list must match reality before “done” | [`skills/todo-discipline`](./skills/todo-discipline/SKILL.md) |
+| **ecc-session-guard** | Two fail-open hooks: do not weaken an existing linter config; warn on `console.log` | [`skills/ecc-session-guard`](./skills/ecc-session-guard/SKILL.md) |
 
 ```bash
 git clone https://github.com/frankxai/awesome-hermes-agent-skills.git
