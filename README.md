@@ -175,6 +175,7 @@ These install on Hermes **and** often Claude Code / Cursor / OpenClaw / Codex.
 | [Infrasity-Labs/dev-gtm-claude-skills](https://github.com/Infrasity-Labs/dev-gtm-claude-skills) | production | SEO / GEO / developer marketing skills |
 | [nowork-studio/NotFair](https://github.com/nowork-studio/NotFair) | production | 42 host-agnostic SEO, GEO, Google Ads, and Meta Ads skills; live account actions use approval-gated MCP connections |
 | [CorpusIQ/corpusiq-docs](https://github.com/CorpusIQ/corpusiq-docs) | production | Business ops + many SaaS connectors via MCP |
+| [Aident-AI/aident-skill](https://github.com/Aident-AI/aident-skill) | beta | [Aident Loadout](https://aident.ai) skill + remote MCP (`https://loadout.aident.ai/mcp`): 1,000+ apps and 400+ Skills through one setup for Hermes, OpenClaw, Claude Code, Codex. Can run external actions; credentials stay in Aident Vault, with cost preflight/approvals and an Audit log. License: MIT. |
 | [longbridge/skills](https://github.com/longbridge/skills) | production | Markets / portfolio skills (multi-region) |
 | [DougTrajano/pydantic-ai-skills](https://github.com/DougTrajano/pydantic-ai-skills) | production | Type-safe Pydantic AI + agentskills.io |
 | [nexu-io/open-design](https://github.com/nexu-io/open-design) | production | Design system + media skills; Hermes via ACP |
