@@ -194,6 +194,7 @@ These install on Hermes **and** often Claude Code / Cursor / OpenClaw / Codex.
 | [resemble-ai/detect-skill](https://github.com/resemble-ai/detect-skill) | beta | Deepfake / media authenticity for agents |
 | [Agent QA Authoring](https://github.com/vostride/agent-qa/blob/main/skills/agent-qa-authoring/SKILL.md) | unverified | Author and validate web/mobile QA tests and suites through Agent QA MCP. Can delete definitions and start runs; review workspace permissions before use. License: [read LICENSE.md](https://github.com/vostride/agent-qa/blob/main/LICENSE.md). |
 | [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness/blob/main/skills/hyperconsciousness/SKILL.md) | developer alpha; unverified | Recall source-backed facts and decisions from an encrypted knowledge store through an authorized HC CLI or MCP connection. MIT. Storage operations can write data or send ciphertext to a configured remote; plaintext returned to a hosted model is visible to that provider. |
+| [yylo-dev/yylo-skills](https://github.com/yylo-dev/yylo-skills) | unverified | Eight SKILL.md packs for the YYLO controller workflow (Kanban/Ledger tasks, wiki, workflow, artifacts) that install on Claude Code / Codex / Pi. MIT. |
 
 ---
 
