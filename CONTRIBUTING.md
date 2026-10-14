@@ -31,6 +31,12 @@ Changing the core 5–7 start set requires a matching edit to [docs/earned.json]
 
 1. Fork and branch from `main`.
 2. Add the row next to similar entries. Keep third-party work above FrankX packs.
-3. Open a PR with the primary URL, why it belongs, license, and review state.
+3. Open a PR with the primary URL, why it belongs, license, and review state. The PR template asks for each of these.
+
+If you'd rather not open a PR, use the **Suggest a skill** issue form instead.
+
+## What happens next
+
+Every submission gets a reply within 7 days: **merged**, **changes requested** (with the exact changes), or **declined** (with the reason). You are welcome to submit your own project. Please disclose that you maintain it. Participation follows the [Code of Conduct](./CODE_OF_CONDUCT.md).
 
 Agent / UI / deploy entries belong in [awesome-hermes-agents](https://github.com/frankxai/awesome-hermes-agents).

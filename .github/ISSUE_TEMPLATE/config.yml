@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Agents, UIs, memory, deploy tools
+    url: https://github.com/frankxai/awesome-hermes-agents/issues/new/choose
+    about: Those entries belong in the companion list.
+  - name: Official Hermes skill docs
+    url: https://hermes-agent.nousresearch.com/docs/user-guide/features/skills
+    about: Questions about Hermes itself go to Nous Research. This list is independent.
