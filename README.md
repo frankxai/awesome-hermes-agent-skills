@@ -158,6 +158,7 @@ Prefer the project's own README for exact install (`hermes skills install …`, 
 | [Lethe044/hermes-skill-marketplace](https://github.com/Lethe044/hermes-skill-marketplace) | experimental | Agent writes/tests/publishes skills |
 | [beiyuii/personal-api-skill](https://github.com/beiyuii/personal-api-skill) | experimental | Obsidian vault → identity layer for agents |
 | [Andrew-Girgis/microsoft-workspace-skill](https://github.com/Andrew-Girgis/microsoft-workspace-skill) | beta | Outlook / M365 Graph email+calendar skill |
+| [ybbms777/deepseek-pricing-panel](https://github.com/ybbms777/deepseek-pricing-panel) | beta | DeepSeek API peak/off-peak window: SKILL.md + zero-dep CLI (exit 0 off-peak / 3 peak) for scheduling batch jobs |
 
 ---
 
