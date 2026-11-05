@@ -1,0 +1,84 @@
+name: Suggest a skill
+description: Propose a Hermes-compatible skill for the list. Each field maps to the inclusion bar in CONTRIBUTING.md.
+title: "Suggest: <skill name>"
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting something. This list is a small, safety-gated start set, not a directory, so every entry has to meet the [inclusion bar](https://github.com/frankxai/awesome-hermes-agent-skills/blob/main/CONTRIBUTING.md#inclusion-bar).
+        We reply to every submission within 7 days with **accepted**, **changes requested**, or **declined, with the reason**.
+        Agents, UIs, memory and deploy tools belong in [awesome-hermes-agents](https://github.com/frankxai/awesome-hermes-agents).
+  - type: input
+    id: url
+    attributes:
+      label: Primary URL
+      description: GitHub preferred. It must contain a real `SKILL.md` or a documented install path.
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: input
+    id: value
+    attributes:
+      label: Distinct value, in one sentence
+      description: What one named job does it do better than what is already listed? "Awesome AI skill" is not an answer.
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License
+      description: SPDX identifier (MIT, Apache-2.0, ...) or "read LICENSE".
+    validations:
+      required: true
+  - type: dropdown
+    id: review-state
+    attributes:
+      label: Review state you are claiming
+      description: "reviewed = you ran it and read the source; watch = promising but young; unverified = not yet run; unsafe = known risk, listed as a warning. The maintainer may change it."
+      options:
+        - reviewed
+        - watch
+        - unverified
+        - unsafe
+    validations:
+      required: true
+  - type: dropdown
+    id: side-effects
+    attributes:
+      label: Can the skill spend money, post, delete, or send data off the machine?
+      options:
+        - "No"
+        - "Yes, and it has a dry-run and a human approval gate (explained below)"
+        - "Yes, with no gate"
+    validations:
+      required: true
+  - type: textarea
+    id: safety
+    attributes:
+      label: Safety note
+      description: If you answered yes above, describe the gate. Otherwise write "none".
+    validations:
+      required: true
+  - type: dropdown
+    id: relation
+    attributes:
+      label: Your relation to the project
+      description: Maintainers are welcome to submit their own work. We only ask that you disclose it.
+      options:
+        - I maintain it
+        - I use it
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: not
+    attributes:
+      label: Confirm that it is none of these
+      options:
+        - label: Not an affiliate funnel, referral link, token or paid-CTA promotion
+          required: true
+        - label: Not an unsigned ZIP or blob download, and not a bulk dump of many skills
+          required: true
+        - label: Not already listed (I searched the README)
+          required: true
