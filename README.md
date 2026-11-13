@@ -197,6 +197,7 @@ These install on Hermes **and** often Claude Code / Cursor / OpenClaw / Codex.
 | [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness/blob/main/skills/hyperconsciousness/SKILL.md) | developer alpha; unverified | Recall source-backed facts and decisions from an encrypted knowledge store through an authorized HC CLI or MCP connection. MIT. Storage operations can write data or send ciphertext to a configured remote; plaintext returned to a hosted model is visible to that provider. |
 | [yylo-dev/yylo-skills](https://github.com/yylo-dev/yylo-skills) | unverified | Eight SKILL.md packs for the YYLO controller workflow (Kanban/Ledger tasks, wiki, workflow, artifacts) that install on Claude Code / Codex / Pi. MIT. |
 | [f-o-x11/deed-page-skill](https://github.com/f-o-x11/deed-page-skill/blob/main/skills/deed-page/SKILL.md) | unverified | One SKILL.md that publishes an HTML file or static folder to a public `https://<slug>.deed.page/` URL with one `curl` PUT (also a no-auth remote MCP at `https://deed.page/mcp`). Install: `hermes skills install f-o-x11/deed-page-skill/skills/deed-page`. Posts content publicly: free sites are public, so keep secrets out; the owner token it saves to `~/.config/deed-page/token` can update or delete sites. No install scripts or hooks. MIT. |
+| [Datacircle](https://github.com/waynehamadi/datacircle/tree/main/skills/datacircle) | unverified | Compares and prices every plan of every GTM API from the benchmark at [datacircle.dev](https://datacircle.dev) |
 
 ---
 
