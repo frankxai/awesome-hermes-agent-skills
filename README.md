@@ -171,6 +171,7 @@ These install on Hermes **and** often Claude Code / Cursor / OpenClaw / Codex.
 | [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | production | 750+ MITRE-mapped security skills |
 | [black-forest-labs/skills](https://github.com/black-forest-labs/skills) | production | Official FLUX image generation skills |
 | [smartcontractkit/chainlink-agent-skills](https://github.com/smartcontractkit/chainlink-agent-skills) | production | Official Chainlink oracle / CCIP skills |
+| [firecrawl/skills](https://github.com/firecrawl/skills) | production | Official Firecrawl skills for web search, scrape, crawl and interact through the Firecrawl CLI, plus the firecrawl-alexandria skill for Firecrawl Alexandria structured-data workflows |
 | [Agents365-ai/drawio-skill](https://github.com/Agents365-ai/drawio-skill) | production | draw.io from natural language |
 | [ZeroPointRepo/youtube-skills](https://github.com/ZeroPointRepo/youtube-skills) | production | YouTube search + robust transcripts |
 | [Infrasity-Labs/dev-gtm-claude-skills](https://github.com/Infrasity-Labs/dev-gtm-claude-skills) | production | SEO / GEO / developer marketing skills |
