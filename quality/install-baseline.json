@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "dimension": "installer-roundtrip",
+  "sourceRevision": "1f1ae5bd11bffc525fb675836c34225f2f41c2e9",
+  "observedAt": "2026-11-19T03:00:14.426520+00:00",
+  "installerVersion": "1.9.0",
+  "profileSha256": "9c19854f621e6a6e49f2607826c148206e9a13a335e2080c3d96e488c6e29c64",
+  "results": [
+    {
+      "skill": "todo-discipline",
+      "target": "hermes-agent",
+      "fileCount": 1,
+      "entrypointSha256": "11feca8cbeb981b4d1915fbd9bbd2f8c743a0f9f62a17a1dff90901db891af78",
+      "payload": "pass",
+      "scopedRemoval": "pass",
+      "projectClean": true,
+      "status": "pass"
+    },
+    {
+      "skill": "ecc-session-guard",
+      "target": "hermes-agent",
+      "fileCount": 3,
+      "entrypointSha256": "ba9f37d9cf390256b2f667f7c49c161c75672b4b39c150abab25ca489cca65fc",
+      "payload": "pass",
+      "scopedRemoval": "pass",
+      "projectClean": true,
+      "status": "pass"
+    },
+    {
+      "skill": "coding-agents-superpack",
+      "target": "hermes-agent",
+      "fileCount": 1,
+      "entrypointSha256": "2b43729f98486a511779880502f000ad0423ae41394c7ce1336c3635b1b89bac",
+      "payload": "pass",
+      "scopedRemoval": "pass",
+      "projectClean": true,
+      "status": "pass"
+    }
+  ]
+}

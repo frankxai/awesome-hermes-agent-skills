@@ -1,0 +1,11 @@
+{
+  "sourceRoot": ".",
+  "skills": [
+    "skills/todo-discipline",
+    "skills/ecc-session-guard",
+    "skills/coding-agents-superpack"
+  ],
+  "targets": [
+    "hermes-agent"
+  ]
+}
